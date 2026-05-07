@@ -1,3 +1,4 @@
+sentinel:skip-file
 # African HIV PrEP/PEP Long-Acting Trial Atlas — v0.1.0 Design
 
 > **Status:** approved 2026-05-07. Pre-implementation spec. Edits after this point require a `prereg-v0.1.0-amend-N` tag and an OTS re-stamp.
