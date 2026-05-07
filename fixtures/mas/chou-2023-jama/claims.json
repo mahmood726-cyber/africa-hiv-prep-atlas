@@ -1,0 +1,25 @@
+{
+  "ma_id": "chou-2023-jama",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chou-2023-jama-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 is one of the two new cabotegravir trials cited in the abstract ('RR, 0.33 [95% CI, 0.18-0.62] in cisgender men who have sex with men and transgender women [n=4490]'). No PMC full text available. Abstract does not mention African countries in association with HPTN 083. Layer-M extraction is abstract-only (confidence_layer_m: medium). All booleans FALSE pending full-text verification."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chou-2023-jama-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 is the second new cabotegravir trial cited in the abstract ('RR, 0.11 [95% CI, 0.04-0.31] in cisgender women [n=3178]'). No PMC full text available. Abstract does not mention African countries in association with HPTN 084. Layer-M extraction is abstract-only (confidence_layer_m: medium). All booleans FALSE pending full-text verification."
+    }
+  }
+}

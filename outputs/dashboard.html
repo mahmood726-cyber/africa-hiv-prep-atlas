@@ -17,19 +17,68 @@ th, td { border: 1px solid #ccc; padding: 0.4rem; text-align: left; }
 <body>
 <h1>African HIV PrEP/PEP Long-Acting Trial Atlas v0.1.0</h1>
 <div class="headline">
-  <p><strong>Sensitivity:</strong> nan (95% CI nan–nan)</p>
-  <p><strong>Specificity:</strong> nan (95% CI nan–nan)</p>
-  <p><em>Method:</em> permutation · n_clusters=?</p>
+  <p><strong>Sensitivity:</strong> 0.38 (95% CI 0.16–0.65)</p>
+  <p><strong>Specificity:</strong> 0.69 (95% CI 0.42–0.93)</p>
+  <p><em>Method:</em> clustered_bootstrap · n_clusters=20</p>
 </div>
 <h2>Atlas rows</h2>
 <table>
 <thead><tr><th>MA</th><th>Trial</th><th>MA classified African?</th><th>Truth (D3)</th><th>Cell</th></tr></thead>
 <tbody>
-
+<tr><td>chen-2023-rev-med-virol</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>chen-2023-rev-med-virol</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>chen-xiu-2023-rev-med-virol</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>chen-xiu-2023-rev-med-virol</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>chou-2023-jama</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>chou-2023-jama</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>chou-2023-jama-evidence-report</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>chou-2023-jama-evidence-report</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>ebrahim-2026-cochrane-db-syst-rev</td><td>PURPOSE_1</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>ebrahim-2026-cochrane-db-syst-rev</td><td>PURPOSE_2</td><td>✓</td><td>—</td><td>FP</td></tr>
+<tr><td>erlwanger-2024-eclinicalmedicine</td><td>ASPIRE</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>erlwanger-2024-eclinicalmedicine</td><td>RING_STUDY</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>fonner-2023-aids</td><td>HPTN_083</td><td>✓</td><td>—</td><td>FP</td></tr>
+<tr><td>fonner-2023-aids</td><td>HPTN_084</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>garratt-2025-aids</td><td>ASPIRE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>garratt-2025-aids</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>garratt-2025-aids</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>garratt-2025-aids</td><td>MTN_025_HOPE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>garratt-2025-aids</td><td>PURPOSE_1</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>garratt-2025-aids</td><td>PURPOSE_2</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>garratt-2025-aids</td><td>RING_STUDY</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>jasper-2025-bmc-infect-dis</td><td>HPTN_084</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>leong-2024-j-acquir-immune-defic-syndr</td><td>ASPIRE</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>leong-2024-j-acquir-immune-defic-syndr</td><td>MTN_025_HOPE</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>leong-2024-j-acquir-immune-defic-syndr</td><td>RING_STUDY</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>lorenzetti-2023-j-int-aids-soc</td><td>HPTN_083</td><td>✓</td><td>—</td><td>FP</td></tr>
+<tr><td>lorenzetti-2023-j-int-aids-soc</td><td>HPTN_084</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>makoni-2024-aids-behav</td><td>ASPIRE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>makoni-2024-aids-behav</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>makoni-2024-aids-behav</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>makoni-2024-aids-behav</td><td>MTN_025_HOPE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>makoni-2024-aids-behav</td><td>RING_STUDY</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>mukuhlani-2026-int-j-infect-dis</td><td>PURPOSE_1</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>mukuhlani-2026-int-j-infect-dis</td><td>PURPOSE_2</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>musekiwa-2020-trop-med-int-health</td><td>ASPIRE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>musekiwa-2020-trop-med-int-health</td><td>RING_STUDY</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>obiero-2021-cochrane-db-syst-rev</td><td>ASPIRE</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>obiero-2021-cochrane-db-syst-rev</td><td>RING_STUDY</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>ridgeway-2021-contraception</td><td>ASPIRE</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>ridgeway-2021-contraception</td><td>RING_STUDY</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>sharma-2024-clin-infect-dis</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>sharma-2024-clin-infect-dis</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>sharma-bhavesh-2026-cureus</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>sharma-bhavesh-2026-cureus</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
+<tr><td>tieosapjaroen-2026-plosmed</td><td>HPTN_083</td><td>✓</td><td>—</td><td>FP</td></tr>
+<tr><td>tieosapjaroen-2026-plosmed</td><td>HPTN_084</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>tieosapjaroen-2026-plosmed</td><td>PURPOSE_1</td><td>✓</td><td>✓</td><td>TP</td></tr>
+<tr><td>tieosapjaroen-2026-plosmed</td><td>PURPOSE_2</td><td>✓</td><td>—</td><td>FP</td></tr>
+<tr><td>wang-2023-jmir-public-health-surveill</td><td>HPTN_083</td><td>—</td><td>—</td><td>TN</td></tr>
+<tr><td>wang-2023-jmir-public-health-surveill</td><td>HPTN_084</td><td>—</td><td>✓</td><td>FN</td></tr>
 </tbody>
 </table>
 <script>
-window.AHPA_HEADLINE = {"method": "permutation", "n_reps": 1000, "sensitivity": NaN, "specificity": NaN, "sens_ci": [NaN, NaN], "spec_ci": [NaN, NaN]};
+window.AHPA_HEADLINE = {"method": "clustered_bootstrap", "n_clusters": 20, "n_reps": 1000, "sensitivity": 0.38235294117647056, "specificity": 0.6875, "sens_ci": [0.16129032258064516, 0.6486486486486487], "spec_ci": [0.4166666666666667, 0.9285714285714286]};
 try { localStorage.setItem("ahpa-v0.1.0-last-render", new Date().toISOString()); } catch (e) {}
 </script>
 </body>

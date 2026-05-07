@@ -1,0 +1,55 @@
+{
+  "ma_id": "makoni-2024-aids-behav",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "makoni-2024-aids-behav-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "ASPIRE (MTN-020, dapivirine vaginal ring phase 3 RCT) is among the vaginal ring studies (n=44) included in this systematic review of HIV prevention product acceptability among women in sub-Saharan Africa. The abstract confirms 'vaginal ring (n=44)' studies were included with the SR covering 2015-2023 and SSA setting. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification, though ASPIRE acceptability sub-studies are very likely in the vaginal ring pool."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "makoni-2024-aids-behav-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "RING_STUDY (IPM-027, dapivirine vaginal ring phase 3 RCT in Uganda/Zimbabwe) is among the vaginal ring studies (n=44) included in this systematic review. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "MTN_025_HOPE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "makoni-2024-aids-behav-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "MTN-025/HOPE (open-label extension of dapivirine ring in South Africa, Uganda, Zimbabwe, Malawi) is among the vaginal ring studies (n=44) included in this systematic review of acceptability in SSA. HOPE ran 2016-2018, published results 2021, within the search window of 2015-2023. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "makoni-2024-aids-behav-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 CAB-LA acceptability sub-studies are among the long-acting systemic products (injectable, implant, microarray patch; n=28) included in this systematic review of HIV prevention acceptability in SSA. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification. The abstract confirms long-acting injectable is one of the product categories covered."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "makoni-2024-aids-behav-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 CAB-LA acceptability sub-studies (conducted in 7 sub-Saharan African countries) are very likely among the long-acting systemic products (injectable, n=28) included in this systematic review. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    }
+  }
+}

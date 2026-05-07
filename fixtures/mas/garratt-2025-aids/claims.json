@@ -1,0 +1,75 @@
+{
+  "ma_id": "garratt-2025-aids",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 is one of the 19 PrEP trials included in this analysis. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not specify trial names or African country context. All Layer-M booleans FALSE pending full-text verification."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 is one of the 19 PrEP trials included in this analysis. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not specify trial names or African country context. All Layer-M booleans FALSE pending full-text verification."
+    },
+    "ASPIRE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "ASPIRE (MTN-020, dapivirine ring) is likely one of the 19 PrEP trials included in this analysis. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not specify trial names or African country context. All Layer-M booleans FALSE pending full-text verification."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "RING_STUDY (IPM-027, dapivirine ring) is likely one of the 19 PrEP trials included in this analysis. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not specify trial names or African country context. All Layer-M booleans FALSE pending full-text verification."
+    },
+    "MTN_025_HOPE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "MTN-025/HOPE (open-label extension of ASPIRE/RING_STUDY dapivirine ring, published Baeten 2021 Lancet) is very likely included in this review given the search date of December 2024 and the scope of 19 PrEP trials in Africa. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "PURPOSE_1": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 1 (lenacapavir in adolescent girls and young women, South Africa and Uganda, Bekker 2024 NEJM NCT04994509) is very likely included in this review given the search date of December 2024 and the scope covering efficacy PrEP trials in Africa. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "PURPOSE_2": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "garratt-2025-aids-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 2 (lenacapavir in cisgender MSM and transgender persons, multinational including South Africa, Kelley 2024 NEJM NCT04925752) is very likely included in this review given the search date of December 2024 and the scope covering efficacy PrEP trials in Africa. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    }
+  }
+}

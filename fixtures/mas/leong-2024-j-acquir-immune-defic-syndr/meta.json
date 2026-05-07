@@ -1,0 +1,15 @@
+{
+  "ma_id": "leong-2024-j-acquir-immune-defic-syndr",
+  "first_author": "Leong",
+  "year": 2024,
+  "doi": "10.1097/QAI.0000000000003496",
+  "pmid": "39051791",
+  "search_date": "2023-09-08",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY", "MTN_025_HOPE"],
+  "full_text_source_id": "pmc-PMC11458098-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "leong-2024-j-acquir-immune-defic-syndr-methods",
+    "locator": "Methods, Search Strategy, Selection Criteria, and Data Extraction",
+    "text": "We searched the Guideline International Network (GIN) library and World Health Organization (WHO) database on May 4, 2022, using search terms \"dapivirine\" and \"HIV prevention\" to identify the most up-to-date guideline/s that addressed our prioritized question/s and which used the GRADE EtD framework. We searched PubMed and Epistemonikos databases electronically through September 8, 2023, using medical subject heading terms, keywords, and word variants for dapivirine and prevention of HIV, restricted to systematic reviews of RCTs published in English."
+  }
+}

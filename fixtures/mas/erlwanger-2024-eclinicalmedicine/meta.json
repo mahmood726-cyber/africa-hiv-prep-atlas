@@ -1,0 +1,15 @@
+{
+  "ma_id": "erlwanger-2024-eclinicalmedicine",
+  "first_author": "Erlwanger",
+  "year": 2024,
+  "doi": "10.1016/j.eclinm.2024.102532",
+  "pmid": "38685925",
+  "search_date": "2023-08-29",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY"],
+  "full_text_source_id": "pmc-PMC11056414-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "erlwanger-2024-eclinicalmedicine-methods",
+    "locator": "Methods, Search strategy and selection criteria",
+    "text": "We conducted a systematic search of MEDLINE (PubMed), Embase, Cochrane Library (CENTRAL), ClinicalTrials.gov and WHO ICTRP databases from 1 January 2000 and 29 August 2023."
+  }
+}

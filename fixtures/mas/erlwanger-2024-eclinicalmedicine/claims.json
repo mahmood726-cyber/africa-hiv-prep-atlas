@@ -1,0 +1,47 @@
+{
+  "ma_id": "erlwanger-2024-eclinicalmedicine",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "erlwanger-2024-eclinicalmedicine-methods",
+        "erlwanger-2024-eclinicalmedicine-results-table1",
+        "erlwanger-2024-eclinicalmedicine-results-text"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "pmc-PMC11056414-fulltext",
+          "text": "all eligible studies recruited from just six countries in eastern and southern Africa"
+        },
+        {
+          "source_id": "pmc-PMC11056414-fulltext",
+          "text": "In a meta-analysis of two RCTs, there was no association of the dapivirine ring with PTB, compared to placebo"
+        }
+      ],
+      "notes": "ASPIRE (MTN-020, dapivirine ring) is one of the two dapivirine ring RCTs pooled in this meta-analysis of perinatal outcomes. Layer (b) TRUE: characteristics table places trial sites in eastern and southern Africa (Malawi, South Africa, Uganda, Zimbabwe). Layer (c) TRUE: 'all eligible studies recruited from just six countries in eastern and southern Africa' is a direct narrative statement placing all included trials, including ASPIRE, in Africa."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "erlwanger-2024-eclinicalmedicine-methods",
+        "erlwanger-2024-eclinicalmedicine-results-table1",
+        "erlwanger-2024-eclinicalmedicine-results-text"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "pmc-PMC11056414-fulltext",
+          "text": "all eligible studies recruited from just six countries in eastern and southern Africa"
+        },
+        {
+          "source_id": "pmc-PMC11056414-fulltext",
+          "text": "In a meta-analysis of two RCTs, there was no association of the dapivirine ring with PTB, compared to placebo"
+        }
+      ],
+      "notes": "RING_STUDY (IPM-027, dapivirine ring) is the second of the two dapivirine ring RCTs pooled in this meta-analysis of perinatal outcomes. Layer (b) TRUE: characteristics table places trial sites in eastern and southern Africa (Eswatini, Malawi, South Africa, Uganda, Zimbabwe). Layer (c) TRUE: 'all eligible studies recruited from just six countries in eastern and southern Africa' directly places all included trials, including RING_STUDY, in Africa."
+    }
+  }
+}

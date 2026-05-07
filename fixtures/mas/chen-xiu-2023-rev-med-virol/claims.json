@@ -1,0 +1,25 @@
+{
+  "ma_id": "chen-xiu-2023-rev-med-virol",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chen-xiu-2023-rev-med-virol-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 (CAB-LA vs TDF-FTC in cisgender MSM and TGW, multinational including South Africa, Uganda, Zimbabwe, Brazil, USA, Peru, Argentina, Thailand) is one of the RCTs included in this systematic review and meta-analysis of long-acting cabotegravir vs oral TDF-FTC as HIV PrEP. The abstract confirms 'long-acting cabotegravir was associated with a lower risk of HIV infection (HR=0.22, 95% CI: 0.08-0.59)' from pooling RCTs, and HPTN 083 is the primary CAB-LA PrEP efficacy trial in MSM/TGW. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chen-xiu-2023-rev-med-virol-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 (CAB-LA vs TDF-FTC in cisgender women, 7 sub-Saharan African countries) is one of the RCTs included in this systematic review and meta-analysis of long-acting cabotegravir as HIV PrEP. The pooled HR from CAB-LA PrEP trials is derived from HPTN 083 + HPTN 084 combined. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ma_id": "sharma-bhavesh-2026-cureus",
+  "first_author": "Sharma",
+  "year": 2026,
+  "doi": "10.7759/cureus.105881",
+  "pmid": "42037869",
+  "search_date": "2025-01-31",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pmc-PMC13109853-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "sharma-bhavesh-2026-cureus-methods",
+    "locator": "Abstract, Methods",
+    "text": "Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidance, MEDLINE, Embase, Scopus, and Cochrane Library were searched for English-language studies published between January 2010 and January 2025 assessing PrEP efficacy in high-risk populations."
+  }
+}

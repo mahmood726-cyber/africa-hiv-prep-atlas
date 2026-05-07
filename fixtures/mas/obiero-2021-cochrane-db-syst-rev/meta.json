@@ -1,0 +1,15 @@
+{
+  "ma_id": "obiero-2021-cochrane-db-syst-rev",
+  "first_author": "Obiero",
+  "year": 2021,
+  "doi": "10.1002/14651858.CD007961.pub3",
+  "pmid": "33719075",
+  "search_date": "2020-08-31",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY"],
+  "full_text_source_id": "pubmed-33719075-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "obiero-2021-cochrane-db-syst-rev-abstract",
+    "locator": "Abstract, Search methods",
+    "text": "We undertook a comprehensive search of the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, Embase, LILACS, CLIB, Web of Science, ClinicalTrials.gov, WHO International Clinical Trials Registry Platform, and reference lists of relevant articles up to August 2020."
+  }
+}

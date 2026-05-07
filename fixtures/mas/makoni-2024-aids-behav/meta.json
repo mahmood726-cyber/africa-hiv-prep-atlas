@@ -1,0 +1,15 @@
+{
+  "ma_id": "makoni-2024-aids-behav",
+  "first_author": "Makoni",
+  "year": 2024,
+  "doi": "10.1007/s10461-024-04529-2",
+  "pmid": "39422786",
+  "search_date": "2023-12-31",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY", "MTN_025_HOPE", "HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pubmed-39422786-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "makoni-2024-aids-behav-abstract",
+    "locator": "Abstract, Methods",
+    "text": "We used a comprehensive strategy to search three databases for peer-reviewed literature from SSA published between January 2015 and December 2023. A two-stage review process assessed references against eligibility criteria."
+  }
+}

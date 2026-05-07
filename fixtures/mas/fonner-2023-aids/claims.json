@@ -1,0 +1,43 @@
+{
+  "ma_id": "fonner-2023-aids",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "fonner-2023-aids-table1",
+        "fonner-2023-aids-results-hiv-infection"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "fonner-2023-aids-table1",
+          "text": "HPTN 083\tMultisite, double blind, double dummy, randomized controlled noninferiority trial\t43 sites across Africa, Asia, Latin America, and the United States\tCisgender men who have sex with men and transgender women who have sex with men at-risk for HIV, aged ≥18 years\t4570"
+        },
+        {
+          "source_id": "fonner-2023-aids-results-hiv-infection",
+          "text": "HPTN 083 enrolled cisgender men and transgender women who have sex with men at-risk for HIV across 43 sites in the United States, Latin America, Africa, and Asia."
+        }
+      ]
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "fonner-2023-aids-table1",
+        "fonner-2023-aids-results-hiv-infection"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "fonner-2023-aids-table1",
+          "text": "HPTN 084\tMultisite, double blind, double dummy, randomized controlled superiority trial\t20 sites across 7 sub-Saharan African countries\tCisgender women at risk for HIV, 18−45 years old.\t3224"
+        },
+        {
+          "source_id": "fonner-2023-aids-results-hiv-infection",
+          "text": "HPTN 084 enrolled cisgender women at-risk for HIV across seven sub-Saharan African countries."
+        }
+      ]
+    }
+  }
+}

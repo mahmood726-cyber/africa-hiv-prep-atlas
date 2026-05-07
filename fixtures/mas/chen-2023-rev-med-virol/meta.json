@@ -1,0 +1,15 @@
+{
+  "ma_id": "chen-2023-rev-med-virol",
+  "first_author": "Chen",
+  "year": 2023,
+  "doi": "10.1002/rmv.2460",
+  "pmid": "37198721",
+  "search_date": "2022-11-12",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pubmed-37198721-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "chen-2023-rev-med-virol-abstract",
+    "locator": "Abstract, Methods",
+    "text": "Randomized controlled trials were retrieved, and R software was used for meta-analysis after data extraction."
+  }
+}

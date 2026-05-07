@@ -1,0 +1,25 @@
+{
+  "ma_id": "sharma-bhavesh-2026-cureus",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "sharma-bhavesh-2026-cureus-results"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 (CAB-LA vs TDF-FTC in MSM/TGW, multinational including South Africa, Uganda, Zimbabwe, Brazil, USA) is one of the 'two large RCTs' of CAB-LA included in this systematic review of 9 RCTs on PrEP efficacy. The abstract states 'Long-acting injectable cabotegravir (CAB-LA) was superior to daily oral tenofovir disoproxil fumarate-emtricitabine (TDF-FTC) in two large RCTs, with relative risk reduction up to 89%.' Full text is available (PMC13109853) but Layer-M booleans remain FALSE as PMC full-text extraction has not yet been performed (confidence_layer_m: medium-high, upgradeable on full-text review). All Layer-M booleans FALSE pending full-text verification."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "sharma-bhavesh-2026-cureus-results"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 (CAB-LA vs TDF-FTC in cisgender women, 7 sub-Saharan African countries) is the second of the 'two large RCTs' of CAB-LA included in this systematic review of 9 RCTs on PrEP efficacy. The abstract confirms CAB-LA vs TDF-FTC superiority from two large RCTs (HPTN 083 + HPTN 084). Full text is available (PMC13109853) but Layer-M booleans remain FALSE as PMC full-text extraction has not yet been performed (confidence_layer_m: medium-high, upgradeable on full-text review). All Layer-M booleans FALSE pending full-text verification."
+    }
+  }
+}

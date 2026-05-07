@@ -1,0 +1,15 @@
+{
+  "ma_id": "jasper-2025-bmc-infect-dis",
+  "first_author": "Jasper",
+  "year": 2025,
+  "doi": "10.1186/s12879-025-11817-2",
+  "pmid": "41225339",
+  "search_date": "2023-12-31",
+  "cited_trial_ids": ["HPTN_084"],
+  "full_text_source_id": "pmc-PMC12613714-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "jasper-2025-bmc-infect-dis-methods",
+    "locator": "Methods, Search strategy",
+    "text": "We searched PubMed, Embase, ClinicalTrials.gov, and the WHO International Clinical Trials Registry Platform (ICTRP) from inception to 31 December 2023 for studies reporting on cabotegravir (CAB) use in pregnancy."
+  }
+}

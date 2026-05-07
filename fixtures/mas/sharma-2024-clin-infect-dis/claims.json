@@ -1,0 +1,25 @@
+{
+  "ma_id": "sharma-2024-clin-infect-dis",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "sharma-2024-clin-infect-dis-table1"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 cited in Table 1 (Key PrEP Trials) with fields for trial name, risk population (MSM and TGW), and key findings; location column absent. No sentence in discussion/results names HPTN 083 in the same sentence as any African country or regional term. All Layer-M booleans FALSE — true-negative candidate."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "sharma-2024-clin-infect-dis-table1"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 cited in Table 1 as '18- to 45-year-old women, 88% reduction in HIV infection using CAB-LA vs TDF/FTC'; no country/region column, no African-context sentence pairing HPTN 084 with Africa. All Layer-M booleans FALSE — true-negative candidate."
+    }
+  }
+}

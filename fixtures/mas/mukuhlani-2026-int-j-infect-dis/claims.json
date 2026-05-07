@@ -1,0 +1,25 @@
+{
+  "ma_id": "mukuhlani-2026-int-j-infect-dis",
+  "claims": {
+    "PURPOSE_1": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "mukuhlani-2026-int-j-infect-dis-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 1 (lenacapavir in adolescent girls and young women, South Africa and Uganda, Bekker 2024 NEJM) is one of the two PrEP trials included in this systematic review of lenacapavir for HIV treatment and prevention. The abstract explicitly describes 'The first trial, conducted in South Africa and Uganda, included adolescent girls and young women (16 to 25 years) and compared injectable lenacapavir with daily oral PrEP consisting of F/TAF in one comparator arm and F/TDF in the other.' Five trials total (5 involving 9986 participants from 20 countries) were included across treatment and prevention; 2 were PrEP trials. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification despite strong abstract evidence for South Africa/Uganda setting."
+    },
+    "PURPOSE_2": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "mukuhlani-2026-int-j-infect-dis-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 2 (lenacapavir in cisgender MSM and transgender persons, multinational including South Africa, Kelley 2024 NEJM) is one of the two PrEP trials included in this systematic review of lenacapavir. The abstract explicitly describes 'The second trial, conducted in the USA, Brazil, Thailand, South Africa, Peru, Argentina, and Mexico, included cisgender gay, bisexual and other men, transgender women, transgender men, and gender-nonbinary persons.' No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All Layer-M booleans FALSE pending full-text verification despite abstract explicitly naming South Africa as a trial country."
+    }
+  }
+}

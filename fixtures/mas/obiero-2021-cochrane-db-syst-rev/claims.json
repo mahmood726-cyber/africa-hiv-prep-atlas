@@ -1,0 +1,25 @@
+{
+  "ma_id": "obiero-2021-cochrane-db-syst-rev",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "obiero-2021-cochrane-db-syst-rev-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "ASPIRE (MTN-020, dapivirine ring) is one of the 2 dapivirine trials pooled in this Cochrane review ('dapivirine (2 trials, 4588 women)'). PMC full text is not available as structured plain text (empty full_text field); extraction is abstract-only (confidence_layer_m: medium). The abstract states 'All 12 trials were conducted in sub-Saharan Africa' but does not name ASPIRE specifically or link it to African countries by name. Layer (a): no explicit African-cohort count claim for ASPIRE by name. Layer (b): no characteristics table accessible; cannot confirm country-level data per trial. Layer (c): abstract does not co-locate the ASPIRE trial name with an African country in the same sentence. All booleans FALSE pending full-text verification via Cochrane Library."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "obiero-2021-cochrane-db-syst-rev-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "RING_STUDY (IPM-027, dapivirine ring) is the second of 2 dapivirine trials pooled in this Cochrane review. Same rationale as ASPIRE: abstract confirms sub-Saharan African setting for all 12 trials but does not name RING_STUDY specifically or link it to countries by trial name. All booleans FALSE pending full-text verification via Cochrane Library."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "ma_id": "tieosapjaroen-2026-plosmed",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "tieosapjaroen-2026-plosmed-table1",
+        "tieosapjaroen-2026-plosmed-results-false-positives",
+        "tieosapjaroen-2026-plosmed-discussion-equity"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-table1",
+          "text": "Multiple countries in Africa\t13\t59"
+        },
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-results-false-positives",
+          "text": "This was based on data from the HPTN 083 trial, where 22/2483 (0.9%) individuals received a false positive RNA test, resulting in four who delayed CAB-LA initiation, two who discontinued CAB-LA and one who had delayed oral CAB; none of these seven individuals had evidence of HIV."
+        },
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-discussion-equity",
+          "text": "In HPTN 083, 11 of 22 false-positive NAT results originated from an LMIC site."
+        }
+      ]
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "tieosapjaroen-2026-plosmed-table1",
+        "tieosapjaroen-2026-plosmed-results-diagnostic-accuracy"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-table1",
+          "text": "Multiple countries in Africa\t13\t59"
+        },
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-results-diagnostic-accuracy",
+          "text": "This is based on data from HPTN 083 open-label extension [] where there was a sensitivity of 82.8% (65.5%–92.4%) and PPV of 54.6% (40.1–68.3) for detecting HIV if using RDT and laboratory-based immunoassay, compared with sensitivity of 100% (88.3–100) and PPV of 56.9% (43.3–69.5) when using NAT."
+        }
+      ]
+    },
+    "PURPOSE_1": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "tieosapjaroen-2026-plosmed-table1",
+        "tieosapjaroen-2026-plosmed-results-rams"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-table1",
+          "text": "Multiple countries in Africa\t13\t59"
+        },
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-results-rams",
+          "text": "Data from PURPOSE 1 and PURPOSE 2 reported capsid RAM in 2/4313 (0.05%) of LEN users, 0/2154 (0%) of TDF/FTC users and 0/2136 (0%) of TAF/FTC users."
+        }
+      ]
+    },
+    "PURPOSE_2": {
+      "a": false,
+      "b": true,
+      "c": false,
+      "source_lines": [
+        "tieosapjaroen-2026-plosmed-table1",
+        "tieosapjaroen-2026-plosmed-results-rams"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-table1",
+          "text": "Multiple countries in Africa\t13\t59"
+        },
+        {
+          "source_id": "tieosapjaroen-2026-plosmed-results-rams",
+          "text": "Data from PURPOSE 1 and PURPOSE 2 reported capsid RAM in 2/4313 (0.05%) of LEN users, 0/2154 (0%) of TDF/FTC users and 0/2136 (0%) of TAF/FTC users."
+        }
+      ]
+    }
+  }
+}

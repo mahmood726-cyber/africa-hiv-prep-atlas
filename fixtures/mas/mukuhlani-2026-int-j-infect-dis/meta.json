@@ -1,0 +1,15 @@
+{
+  "ma_id": "mukuhlani-2026-int-j-infect-dis",
+  "first_author": "Mukuhlani",
+  "year": 2026,
+  "doi": "10.1016/j.ijid.2026.108580",
+  "pmid": "41871735",
+  "search_date": "2026-01-15",
+  "cited_trial_ids": ["PURPOSE_1", "PURPOSE_2"],
+  "full_text_source_id": "pubmed-41871735-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "mukuhlani-2026-int-j-infect-dis-abstract",
+    "locator": "Abstract, Methods",
+    "text": "Following PRISMA 2020 (protocol registered at OSF), we reviewed phase 2-3 randomized controlled trials evaluating lenacapavir for HIV treatment or prevention, with searches conducted from database inception through 15 January 2026."
+  }
+}

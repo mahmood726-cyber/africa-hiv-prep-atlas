@@ -1,0 +1,25 @@
+{
+  "ma_id": "musekiwa-2020-trop-med-int-health",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "musekiwa-2020-trop-med-int-health-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "ASPIRE (MTN-020) is one of the 2 dapivirine ring RCTs pooled in this analysis ('2 RCTs, 4,564 women'). Abstract states participants were 'mainly from sub-Saharan Africa' but does not name ASPIRE explicitly or link it to specific countries. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Layer (b) requires a characteristics table with African country names — not accessible from abstract. Layer (c) requires trial name + African country in same/adjacent sentence — abstract provides regional description but does not co-locate trial name and country. All booleans FALSE pending full-text verification."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "musekiwa-2020-trop-med-int-health-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "RING_STUDY (IPM-027) is the second of 2 dapivirine ring RCTs pooled in this analysis. Same rationale as ASPIRE: abstract confirms sub-Saharan African setting but does not name RING_STUDY explicitly or link it to specific countries. No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). All booleans FALSE pending full-text verification."
+    }
+  }
+}

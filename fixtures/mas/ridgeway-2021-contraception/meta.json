@@ -1,0 +1,15 @@
+{
+  "ma_id": "ridgeway-2021-contraception",
+  "first_author": "Ridgeway",
+  "year": 2021,
+  "doi": "10.1016/j.contraception.2021.10.001",
+  "pmid": "34644609",
+  "search_date": "2021-06-15",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY"],
+  "full_text_source_id": "pmc-PMC9128798-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "ridgeway-2021-contraception-methods",
+    "locator": "Methods, Search strategy",
+    "text": "We searched PubMed, Web of Science, and Embase using a predetermined search strategy and searched grey literature including conference proceedings and reports. We identified additional references via a hand-search of bibliographies, a web search, and through a predetermined list of experts. The review was completed July 5, 2021."
+  }
+}

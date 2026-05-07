@@ -1,0 +1,15 @@
+{
+  "ma_id": "sharma-2024-clin-infect-dis",
+  "first_author": "Sharma",
+  "year": 2024,
+  "doi": "10.1093/cid/ciad537",
+  "pmid": "37665213",
+  "search_date": "2023-06-01",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pmc-PMC10874262-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "sharma-2024-clin-infect-dis-methods",
+    "locator": "Methods, Search Strategy",
+    "text": "To determine HIV incidence in key at-risk populations of focus globally, a systematic review of literature from 2018 to the present was conducted on 3 Ovid databases (Medline, Embase, and Global Health). Key populations were MSM, TGW, CSWs, PWID, PW, and AGYW. Blood donors and the general population were included as comparators. Cochrane Review was searched to identify key terms used in other literature searches for each of the themes \"HIV,\" \"incidence,\" and \"key populations.\""
+  }
+}

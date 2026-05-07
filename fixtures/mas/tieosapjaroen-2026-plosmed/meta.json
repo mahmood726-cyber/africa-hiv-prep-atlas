@@ -1,0 +1,15 @@
+{
+  "ma_id": "tieosapjaroen-2026-plosmed",
+  "first_author": "Tieosapjaroen",
+  "year": 2026,
+  "doi": "10.1371/journal.pmed.1005030",
+  "pmid": "41990088",
+  "search_date": "2025-04-08",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084", "PURPOSE_1", "PURPOSE_2"],
+  "full_text_source_id": "pmc-PMC13102303-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "tieosapjaroen-2026-plosmed-methods",
+    "locator": "Methods, Search strategy and selection criteria",
+    "text": "We searched OVID Medline, OVID Embase, CINAHL, and Cochrane Central Register of Controlled Trials for studies published from inception to October 18, 2024. We also searched electronic conference abstracts from the International AIDS Society (AIDS), the Conference on Retroviruses and Opportunistic Infections (CROI), and the HIV Research for Prevention (HIVR4P) for all available abstracts."
+  }
+}

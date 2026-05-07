@@ -1,0 +1,15 @@
+{
+  "ma_id": "garratt-2025-aids",
+  "first_author": "Garratt",
+  "year": 2025,
+  "doi": "10.1097/QAD.0000000000004232",
+  "pmid": "40327671",
+  "search_date": "2024-12-31",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084", "ASPIRE", "RING_STUDY", "MTN_025_HOPE", "PURPOSE_1", "PURPOSE_2"],
+  "full_text_source_id": "pubmed-40327671-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "garratt-2025-aids-abstract",
+    "locator": "Abstract, Methods",
+    "text": "Systematic reviews for PrEP and HIV vaccine trials in Medline, Embase and Pubmed databases were performed, with search terms 'PrEP', 'HIV' and 'efficacy'. The primary outcome was the rate (ratio) of prevalence at screening compared to the incidence of HIV in the control arm."
+  }
+}

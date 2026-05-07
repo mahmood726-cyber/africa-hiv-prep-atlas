@@ -1,0 +1,43 @@
+{
+  "ma_id": "ebrahim-2026-cochrane-db-syst-rev",
+  "claims": {
+    "PURPOSE_1": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+        "ebrahim-2026-cochrane-db-syst-rev-abstract"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+          "text": "Bekker 2024South Africa and Uganda  RCTFunded by Gilead Sciences; PURPOSE 1(ClinicalTrials.gov number, NCT04994509)"
+        },
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-abstract",
+          "text": "The first trial, conducted in South Africa and Uganda, included adolescent girls and young women (16 to 25 years) and compared injectable lenacapavir with daily oral PrEP consisting of F/TAF in one comparator arm and F/TDF in the other."
+        }
+      ]
+    },
+    "PURPOSE_2": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+        "ebrahim-2026-cochrane-db-syst-rev-abstract"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+          "text": "Kelley 2025USA, Brazil, Thailand,South Africa, Peru, Argentina, andMexico  RCTFunded by Gilead Sciences; PURPOSE 2(ClinicalTrials.gov number, NCT04925752)"
+        },
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-abstract",
+          "text": "The second trial, conducted in the USA, Brazil, Thailand, South Africa, Peru, Argentina, and Mexico, included cisgender gay, bisexual and other men, transgender women, transgender men, and gender-nonbinary persons of any age who have condomless, receptive anal sex with partners assigned male at birth."
+        }
+      ]
+    }
+  }
+}

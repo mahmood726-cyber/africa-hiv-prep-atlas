@@ -1,0 +1,63 @@
+{
+  "ma_id": "leong-2024-j-acquir-immune-defic-syndr",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "leong-2024-j-acquir-immune-defic-syndr-table2",
+        "leong-2024-j-acquir-immune-defic-syndr-methods-model",
+        "leong-2024-j-acquir-immune-defic-syndr-discussion"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-table2",
+          "text": "Two of the 12 RCTs investigated the safety and efficacy of the dapivirine ring compared with placebo among heterosexual women—the \"Ring\" (IPM-027) and \"ASPIRE\" (MTN-020) studies conducted in clinics and community-based locations in Malawi, South Africa, Uganda, and Zimbabwe"
+        },
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-methods-model",
+          "text": "dapivirine ring effectiveness as 29% based on pooled results from 2 phase III placebo-controlled RCTs, the ASPIRE and RING studies."
+        }
+      ]
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "leong-2024-j-acquir-immune-defic-syndr-table2",
+        "leong-2024-j-acquir-immune-defic-syndr-methods-model"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-table2",
+          "text": "Two of the 12 RCTs investigated the safety and efficacy of the dapivirine ring compared with placebo among heterosexual women—the \"Ring\" (IPM-027) and \"ASPIRE\" (MTN-020) studies conducted in clinics and community-based locations in Malawi, South Africa, Uganda, and Zimbabwe"
+        },
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-methods-model",
+          "text": "dapivirine ring effectiveness as 29% based on pooled results from 2 phase III placebo-controlled RCTs, the ASPIRE and RING studies."
+        }
+      ]
+    },
+    "MTN_025_HOPE": {
+      "a": false,
+      "b": false,
+      "c": true,
+      "source_lines": [
+        "leong-2024-j-acquir-immune-defic-syndr-methods-model",
+        "leong-2024-j-acquir-immune-defic-syndr-etd-desirable-effects"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-methods-model",
+          "text": "A second scenario was included to model an effectiveness estimate of 62%, the upper limit effectiveness estimate from 2 open-label extension projects, HOPEand DREAM."
+        },
+        {
+          "source_id": "leong-2024-j-acquir-immune-defic-syndr-etd-desirable-effects",
+          "text": "open-label extension projects (HOPEand DREAM) reported 39%–62% reduction in HIV incidence among women study participants with increased adherence to dapivirine compared with adherence measured in RCTs."
+        }
+      ]
+    }
+  }
+}

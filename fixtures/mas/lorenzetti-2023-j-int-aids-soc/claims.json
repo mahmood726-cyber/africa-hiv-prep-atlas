@@ -1,0 +1,41 @@
+{
+  "ma_id": "lorenzetti-2023-j-int-aids-soc",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": true,
+      "source_lines": [
+        "lorenzetti-2023-j-int-aids-soc-introduction",
+        "lorenzetti-2023-j-int-aids-soc-results-agyw"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "lorenzetti-2023-j-int-aids-soc-introduction",
+          "text": "Two randomized trials on the use of long-acting injectable cabotegravir (CAB-LA) as PrEP, HPTN 083 and HPTN 084, were published. These trials stopped early after demonstrating CAB-LA's statistically superior efficacy at preventing HIV acquisition compared to oral tenofovir/emtricitabine."
+        }
+      ],
+      "notes": "HPTN 083 is cited in this systematic review of values and preferences for injectable PrEP as the efficacy RCT that generated the evidence framing this review. The review includes HPTN 083 study sub-study data on injectable PrEP acceptability. Full text (PMC10805120) confirms HPTN 083 is named with African sites context: '11 of 22 false-positive NAT results originated from an LMIC site' and mentions sites in Africa. Layer (a): no explicit African-cohort count claim for HPTN 083 by name. Layer (b): FALSE — this is a values/preferences review; no characteristics table with per-trial African country breakdown for HPTN 083 specifically. Layer (c): TRUE — HPTN 083 is co-located with African context in the paper (mentions LMIC sites, Africa-specific findings, and discusses African stakeholder responses to injectable PrEP). Note: ASPIRE appears in a data table as context for one injectable PrEP sub-study (Minnis 2018, conducted within ASPIRE), but ASPIRE itself is not one of the primary cited_trial_ids as a PrEP efficacy trial — only HPTN 083 and HPTN 084 are cited as the RCTs demonstrating injectable PrEP efficacy. Search date: September 2021."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": true,
+      "source_lines": [
+        "lorenzetti-2023-j-int-aids-soc-introduction",
+        "lorenzetti-2023-j-int-aids-soc-results-africa"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "lorenzetti-2023-j-int-aids-soc-introduction",
+          "text": "Two randomized trials on the use of long-acting injectable cabotegravir (CAB-LA) as PrEP, HPTN 083 and HPTN 084, were published. These trials stopped early after demonstrating CAB-LA's statistically superior efficacy at preventing HIV acquisition compared to oral tenofovir/emtricitabine."
+        },
+        {
+          "source_id": "lorenzetti-2023-j-int-aids-soc-results-africa",
+          "text": "regulatory approval in the United States, Australia, Zimbabwe, South Africa and Malawi, which may overcome some concerns expressed within included studies"
+        }
+      ],
+      "notes": "HPTN 084 is cited as the second of the two efficacy RCTs that generated the evidence base for this review. The full text (PMC10805120) confirms Africa-specific context including Zimbabwe, South Africa, Malawi for CAB-LA regulatory approvals and multiple African sub-study observations. Layer (a): no explicit African-cohort count claim by trial name. Layer (b): FALSE — no per-trial characteristics table with African country breakdown for HPTN 084 specifically. Layer (c): TRUE — HPTN 084 named alongside African country context (Ugandan women, SSA studies) in the same paper sections. Search date: September 2021; PROSPERO registration not required for this review type."
+    }
+  }
+}

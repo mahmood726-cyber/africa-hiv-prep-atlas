@@ -1,0 +1,15 @@
+{
+  "ma_id": "ebrahim-2026-cochrane-db-syst-rev",
+  "first_author": "Ebrahim",
+  "year": 2026,
+  "doi": "10.1002/14651858.CD016347",
+  "pmid": "41919720",
+  "search_date": "2025-05-01",
+  "cited_trial_ids": ["PURPOSE_1", "PURPOSE_2"],
+  "full_text_source_id": "pmc-PMC13041208-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "ebrahim-2026-cochrane-db-syst-rev-methods",
+    "locator": "Methods, Criteria for considering studies for this review",
+    "text": "We searched CENTRAL, PubMed, and two trial registers and conducted reference checking to identify eligible studies. The search is current to May 2025."
+  }
+}

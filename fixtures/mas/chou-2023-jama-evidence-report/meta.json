@@ -1,0 +1,15 @@
+{
+  "ma_id": "chou-2023-jama-evidence-report",
+  "first_author": "Chou",
+  "year": 2023,
+  "doi": "10.1001/jama.2023.9865",
+  "pmid": "37606667",
+  "search_date": "2022-05-16",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pubmed-37606667-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "chou-2023-jama-evidence-report-abstract",
+    "locator": "Abstract, Data sources",
+    "text": "Ovid MEDLINE, Cochrane Database of Systematic Reviews, Cochrane Central Register of Controlled Trials, and Embase (January 2018 to May 16, 2022); surveillance through March 24, 2023."
+  }
+}

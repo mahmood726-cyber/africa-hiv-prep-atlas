@@ -1,0 +1,15 @@
+{
+  "ma_id": "wang-2023-jmir-public-health-surveill",
+  "first_author": "Wang",
+  "year": 2023,
+  "doi": "10.2196/46767",
+  "pmid": "37498645",
+  "search_date": "2022-11-12",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pmc-PMC10415942-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "wang-2023-jmir-public-health-surveill-methods",
+    "locator": "Methods, Search Strategy",
+    "text": "We thoroughly searched the PubMed, Embase, and Cochrane Library databases for eligible articles published from their inception to November 12, 2022. Only articles published in English were included in this study. Search terms included \"HIV,\" \"AIDS,\" \"long-acting formulations,\" \"cabotegravir,\" \"gsk1265744,\" and \"rilpivirine\"."
+  }
+}

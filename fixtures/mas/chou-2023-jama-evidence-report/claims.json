@@ -1,0 +1,25 @@
+{
+  "ma_id": "chou-2023-jama-evidence-report",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chou-2023-jama-evidence-report-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 is one of the 'two new trials' cited in this USPSTF evidence report (RR 0.33 [95% CI 0.18-0.62] in cisgender men who have sex with men and transgender women [n=4490]). No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not mention African countries in association with HPTN 083 by name. Layer (a): no explicit African-cohort count claim. Layer (b): no characteristics table accessible. Layer (c): trial name and African country not co-located in abstract. All booleans FALSE pending full-text verification. Note: this is the companion evidence report (DOI 10.1001/jama.2023.9865) distinct from the USPSTF recommendation statement (DOI 10.1001/jama.2023.4488, chou-2023-jama fixture)."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chou-2023-jama-evidence-report-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 is the second of the 'two new trials' cited in this USPSTF evidence report (RR 0.11 [95% CI 0.04-0.31] in cisgender women [n=3178]). No PMC full text available; extraction is abstract-only (confidence_layer_m: medium). Abstract does not mention African countries in association with HPTN 084. All booleans FALSE pending full-text verification."
+    }
+  }
+}

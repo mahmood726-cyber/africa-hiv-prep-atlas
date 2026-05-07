@@ -1,0 +1,27 @@
+{
+  "ma_id": "wang-2023-jmir-public-health-surveill",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "wang-2023-jmir-public-health-surveill-table1",
+        "wang-2023-jmir-public-health-surveill-discussion"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 is cited in Table 1 (Landovitz et al 2021, HPTN 083) and extensively in the discussion, but the Characteristics of Included Studies table (Table 1) lists location only as 'Multicenter' without naming African countries. No sentence in the discussion or results names HPTN 083 in the same sentence as an African country or regional term. All three Layer-M booleans are FALSE — true-negative candidate for the atlas."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "wang-2023-jmir-public-health-surveill-table1",
+        "wang-2023-jmir-public-health-surveill-discussion"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 is cited in Table 1 (Delany-Moretlwe et al 2022, HPTN 084) and in the discussion, but location is listed only as 'Multicenter' in the characteristics table. No discussion sentence pairs HPTN 084 with an African country or regional term. All three Layer-M booleans are FALSE — true-negative candidate for the atlas."
+    }
+  }
+}

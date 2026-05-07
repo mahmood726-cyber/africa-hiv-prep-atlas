@@ -1,0 +1,15 @@
+{
+  "ma_id": "musekiwa-2020-trop-med-int-health",
+  "first_author": "Musekiwa",
+  "year": 2020,
+  "doi": "10.1111/tmi.13401",
+  "pmid": "32306503",
+  "search_date": "2019-06-30",
+  "cited_trial_ids": ["ASPIRE", "RING_STUDY"],
+  "full_text_source_id": "pubmed-32306503-abstract",
+  "search_strategy_excerpt": {
+    "source_id": "musekiwa-2020-trop-med-int-health-abstract",
+    "locator": "Abstract, Methods",
+    "text": "Systematic review through a comprehensive search of relevant electronic databases for eligible randomised controlled trials (RCTs) published through June 2019."
+  }
+}

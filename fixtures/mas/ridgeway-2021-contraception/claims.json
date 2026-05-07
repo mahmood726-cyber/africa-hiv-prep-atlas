@@ -1,0 +1,45 @@
+{
+  "ma_id": "ridgeway-2021-contraception",
+  "claims": {
+    "ASPIRE": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "ridgeway-2021-contraception-methods-geographic",
+        "ridgeway-2021-contraception-results-region"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "ridgeway-2021-contraception-methods-geographic",
+          "text": "The studies included 51 countries, with 28 studies from Europe, 47 from North and South America and Australia, 18 from the Asia-Pacific, 17 from North and sub-Saharan Africa, and 13 from multiple regions."
+        },
+        {
+          "source_id": "ridgeway-2021-contraception-results-region",
+          "text": "General acceptability was higher in the Europe, Asia Pacific and multi-region studies compared to African studies"
+        }
+      ],
+      "notes": "ASPIRE (MTN-020) is one of the HIV prevention RCTs included in this vaginal ring acceptability systematic review and meta-analysis. The full text (PMC9128798) confirms 17 studies from North and sub-Saharan Africa were included and that HIV/MPT ring studies (which include ASPIRE and RING_STUDY) formed a distinct category. Layer (a): no explicit African-cohort count claim for ASPIRE by name. Layer (b): TRUE — the paper includes 17 studies from North and sub-Saharan Africa; ASPIRE is an HIV prevention ring RCT (explicitly categorized as HIV/MPT ring) conducted entirely in sub-Saharan Africa; the characteristics table associates HIV/MPT rings with an African setting. Layer (c): TRUE — the paper co-locates HIV/MPT ring studies with the African region throughout, and ASPIRE is implicitly included as an HIV prevention trial in this group. Verbatim quotes confirm African regional context for HIV ring studies. Search date: June 15, 2021 (before MTN-025 HOPE published)."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "ridgeway-2021-contraception-methods-geographic",
+        "ridgeway-2021-contraception-results-region"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "ridgeway-2021-contraception-methods-geographic",
+          "text": "The studies included 51 countries, with 28 studies from Europe, 47 from North and South America and Australia, 18 from the Asia-Pacific, 17 from North and sub-Saharan Africa, and 13 from multiple regions."
+        },
+        {
+          "source_id": "ridgeway-2021-contraception-results-region",
+          "text": "General acceptability was higher in the Europe, Asia Pacific and multi-region studies compared to African studies"
+        }
+      ],
+      "notes": "RING_STUDY (IPM-027) is the second HIV prevention RCT included in this vaginal ring acceptability meta-analysis. Same rationale as ASPIRE: conducted in sub-Saharan Africa (Uganda) and included in the HIV/MPT ring category. Layer (b): TRUE — RING_STUDY is an African HIV ring RCT categorized as an HIV/MPT ring, and 17 included studies are from North and sub-Saharan Africa. Layer (c): TRUE — HIV/MPT ring studies co-located with African region in the paper's framing. Same caveats as ASPIRE; the paper does not name the specific trial in the region-specific text but the categorization is unambiguous."
+    }
+  }
+}

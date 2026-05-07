@@ -1,0 +1,20 @@
+{
+  "ma_id": "jasper-2025-bmc-infect-dis",
+  "claims": {
+    "HPTN_084": {
+      "a": false,
+      "b": true,
+      "c": true,
+      "source_lines": [
+        "jasper-2025-bmc-infect-dis-results-data-extraction"
+      ],
+      "verbatim_quotes": [
+        {
+          "source_id": "jasper-2025-bmc-infect-dis-results-data-extraction",
+          "text": "Delany-Moretlwe et al. 2022 South Africa, Botswana, Kenya, Eswatini, Malawi, Uganda, Zimbabwe HPTN084 study"
+        }
+      ],
+      "notes": "HPTN 084 is a primary included study in this systematic review of CAB-LA use in pregnancy. The full text (PMC12613714) includes a data extraction table that lists HPTN 084 explicitly with 7 African countries: South Africa, Botswana, Kenya, Eswatini, Malawi, Uganda, Zimbabwe. Note: HPTN 083 (MSM and transgender women) was NOT included in this review; the focus was on CAB-LA in pregnancy and in cisgender women, meaning the included studies come from HPTN 084, HPTN 077, ATLAS-2M, FLAIR, SOLAR, and a compassionate use program. Layer (a): no explicit African-cohort count claim by trial name. Layer (b): TRUE — characteristics/data extraction table lists 7 African countries alongside HPTN 084 trial name. Layer (c): TRUE — trial name co-located with African country names in the same data-extraction table row. Search date: 31 December 2023."
+    }
+  }
+}

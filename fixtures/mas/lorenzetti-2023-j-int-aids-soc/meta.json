@@ -1,0 +1,15 @@
+{
+  "ma_id": "lorenzetti-2023-j-int-aids-soc",
+  "first_author": "Lorenzetti",
+  "year": 2023,
+  "doi": "10.1002/jia2.26107",
+  "pmid": "37439057",
+  "search_date": "2021-09-30",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084"],
+  "full_text_source_id": "pmc-PMC10805120-fulltext",
+  "search_strategy_excerpt": {
+    "source_id": "lorenzetti-2023-j-int-aids-soc-methods",
+    "locator": "Methods, Search strategy",
+    "text": "We searched nine databases and conference websites for peer-reviewed and grey literature (January 2010-September 2021). There were no restrictions on location. A two-stage review process assessed references against eligibility criteria."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "ma_id": "chen-2023-rev-med-virol",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chen-2023-rev-med-virol-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 is one of the two RCTs pooled in this meta-analysis (HR=0.22, 95% CI 0.08-0.59 for CAB-LA vs TDF-FTC from combined HPTN 083 and 084 data). No PMC full text available. Abstract does not mention African countries in association with HPTN 083. Layer-M extraction is abstract-only (confidence_layer_m: medium). All booleans FALSE pending full-text verification."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "chen-2023-rev-med-virol-abstract"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 is the second RCT pooled in this meta-analysis. No PMC full text available. Abstract does not mention African countries in association with HPTN 084. Layer-M extraction is abstract-only (confidence_layer_m: medium). All booleans FALSE pending full-text verification."
+    }
+  }
+}
