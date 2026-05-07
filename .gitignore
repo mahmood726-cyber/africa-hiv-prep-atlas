@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project — never commit
+PROGRESS.md
+sentinel-findings.md
+sentinel-findings.jsonl
+STUCK_FAILURES.md
+STUCK_FAILURES.jsonl
+.claude/
+*.local.json
+
+# Tmp / backup
+*.tmp
+*.bak
