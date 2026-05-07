@@ -1,0 +1,15 @@
+{
+  "ma_id": "xi-2025-j-int-aids-soc",
+  "first_author": "Xi",
+  "year": 2025,
+  "doi": "10.1002/jia2.70058",
+  "pmid": "41275419",
+  "search_date": "2025-08-21",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084", "PURPOSE_1", "PURPOSE_2"],
+  "full_text_source_id": "pmc-PMC12640620-full-text",
+  "search_strategy_excerpt": {
+    "source_id": "xi-2025-j-int-aids-soc-methods-search",
+    "locator": "Methods §2.1 Search strategy and inclusion/exclusion criteria",
+    "text": "An information specialist (BS) developed the strategy in consultation with the review team. The strategies were executed in Ovid MEDLINE® ALL, Embase Classic+Embase (Ovid) and the NHS Economic Evaluation Database (Wiley). An initial search was conducted to identify articles published from inception to 30 August 2019, updated to 23 December 2021, updated to 21 December 2024 and updated again to 21 August 2025."
+  }
+}

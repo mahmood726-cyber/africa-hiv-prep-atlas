@@ -1,0 +1,15 @@
+{
+  "ma_id": "bozzani-2022-pharmacoeconomics",
+  "first_author": "Bozzani",
+  "year": 2022,
+  "doi": "10.1007/s40273-022-01223-w",
+  "pmid": "36529838",
+  "search_date": "2020-08-27",
+  "cited_trial_ids": ["HPTN_083", "HPTN_084", "ASPIRE", "RING_STUDY"],
+  "full_text_source_id": "pmc-PMC10085926-full-text",
+  "search_strategy_excerpt": {
+    "source_id": "bozzani-2022-pharmacoeconomics-methods-search",
+    "locator": "Methods, paragraph 1",
+    "text": "A systematic literature review was carried out using the Medline, Embase, Global Health, EconLit and Web of Science databases between 26 and 27 August 2020. The Cochrane Database of systematic reviews was also searched to retrieve other reviews on the same topic and hand search the reference lists of any relevant records. Searches were limited to full texts published after 2010, written in English and focusing on human subjects."
+  }
+}

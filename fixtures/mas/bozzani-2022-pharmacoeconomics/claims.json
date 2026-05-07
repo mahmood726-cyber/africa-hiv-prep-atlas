@@ -1,0 +1,47 @@
+{
+  "ma_id": "bozzani-2022-pharmacoeconomics",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC10085926-full-text-background"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 (cabotegravir-LA in MSM/TGW) efficacy result is cited verbatim in the Background: 'long-acting PrEP with cabotegravir administered as a bi-monthly injection was found to be 89% more effective than oral PrEP at preventing HIV acquisition.' This sentence references HPTN 083/084 combined result but the trial name HPTN 083 is not stated verbatim — it appears only as a numbered citation. The body includes 'four studies each on long-acting injectable PrEP' as economic evaluations. Bozzani search date is August 2020; HPTN 083 results (NEJM November 2021) postdate the search. Background reference is to interim/preliminary data available at time of writing. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC10085926)."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC10085926-full-text-background"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 (cabotegravir-LA in cisgender women, 7 African countries) efficacy result is part of the '89% more effective' cabotegravir finding cited in the Background. Trial name HPTN 084 is not stated verbatim in the extracted full text; reference is a numbered citation. Bozzani search date is August 2020; HPTN 084 results (Lancet 2022) postdate the search. The 'four studies on long-acting injectable PrEP' economic evaluations pre-date results publication. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC10085926)."
+    },
+    "ASPIRE": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC10085926-full-text-background",
+        "pmc-PMC10085926-full-text-results-other-prep"
+      ],
+      "verbatim_quotes": [],
+      "notes": "ASPIRE (MTN-020, dapivirine ring, 4 African countries) efficacy result is referenced in the Background: 'Phase III clinical trials showed that the ring reduced HIV infection risk by approximately 30% overall.' The full text also discusses 'dapirivine-containing intravaginal rings' in South Africa context including 'four studies each on vaginal rings.' Trial name ASPIRE/MTN-020 is not stated verbatim in the extracted full text; reference is a numbered citation. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC10085926)."
+    },
+    "RING_STUDY": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC10085926-full-text-background",
+        "pmc-PMC10085926-full-text-results-other-prep"
+      ],
+      "verbatim_quotes": [],
+      "notes": "RING_STUDY (IPM-027, dapivirine ring, Uganda/Zimbabwe/South Africa/Rwanda) efficacy result is part of the '30% overall' ring finding cited in the Background. Trial name RING_STUDY/IPM-027 is not stated verbatim in the extracted full text; reference is a numbered citation. The 'four studies each on vaginal rings' in the economic evaluation body include South Africa-based models directly informed by dapivirine ring RCT data. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC10085926)."
+    }
+  }
+}

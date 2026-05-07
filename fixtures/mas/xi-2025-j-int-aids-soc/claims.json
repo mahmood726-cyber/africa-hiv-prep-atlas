@@ -1,0 +1,49 @@
+{
+  "ma_id": "xi-2025-j-int-aids-soc",
+  "claims": {
+    "HPTN_083": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC12640620-full-text-intro",
+        "pmc-PMC12640620-full-text-results-modality"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 083 (cabotegravir-LA in MSM/TGW) is among the 17 long-acting injectable PrEP economic evaluations included in this SR. The full text states 'Seventeen (13%) of the 128 included studies evaluated long-acting injectable PrEP' and the Introduction references cabotegravir approval: 'long-acting injectable PrEP (cabotegravir and lenacapavir) was approved for use in the United States in 2021 and 2025, respectively.' Trial name HPTN 083 is not stated verbatim in the extracted full text — references are numbered citations only. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC12640620)."
+    },
+    "HPTN_084": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC12640620-full-text-intro",
+        "pmc-PMC12640620-full-text-results-modality"
+      ],
+      "verbatim_quotes": [],
+      "notes": "HPTN 084 (cabotegravir-LA in cisgender women, 7 African countries) is among the 17 long-acting injectable PrEP economic evaluations and the 51 sub-Saharan Africa studies in this SR. The full text notes '51 (40%) studies modelled HIV epidemics in countries across sub-Saharan Africa' and 'Seventeen (13%) of the 128 included studies evaluated long-acting injectable PrEP.' Trial name HPTN 084 is not stated verbatim in the extracted full text. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC12640620)."
+    },
+    "PURPOSE_1": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC12640620-full-text-intro",
+        "pmc-PMC12640620-full-text-results-modality"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 1 (lenacapavir-LA in adolescent girls and young women, South Africa/Uganda, Bekker 2024 NEJM) is likely among the 17 long-acting injectable PrEP economic evaluations given that the search extended to 21 August 2025 and the Introduction mentions: 'long-acting injectable PrEP (cabotegravir and lenacapavir) was approved for use in the United States in 2021 and 2025, respectively.' Trial name PURPOSE 1 is not stated verbatim in the extracted full text. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC12640620)."
+    },
+    "PURPOSE_2": {
+      "a": false,
+      "b": false,
+      "c": false,
+      "source_lines": [
+        "pmc-PMC12640620-full-text-intro",
+        "pmc-PMC12640620-full-text-results-modality"
+      ],
+      "verbatim_quotes": [],
+      "notes": "PURPOSE 2 (lenacapavir-LA in cisgender MSM and transgender persons, multinational including South Africa, Kelley 2024 NEJM) is likely among the 17 long-acting injectable PrEP economic evaluations given the search extended to 21 August 2025 and the Introduction mentions lenacapavir approval. Trial name PURPOSE 2 is not stated verbatim in the extracted full text. Layer-M booleans all FALSE (no verbatim trial-name quote). PMC full text available (PMC12640620)."
+    }
+  }
+}

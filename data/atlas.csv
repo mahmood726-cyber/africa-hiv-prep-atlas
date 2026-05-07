@@ -1,12 +1,12 @@
 ma_id,trial_id,claimed_a,claimed_b,claimed_c,claimed_union,truth_d1,truth_d2,truth_d3,tp_at_d3,fp_at_d3,fn_at_d3,tn_at_d3,confidence_layer_m,confidence_layer_t,source_lines
+bozzani-2022-pharmacoeconomics,ASPIRE,False,False,False,False,True,True,True,False,False,True,False,high,high,pmc-PMC10085926-full-text-background;pmc-PMC10085926-full-text-results-other-prep
+bozzani-2022-pharmacoeconomics,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,pmc-PMC10085926-full-text-background
+bozzani-2022-pharmacoeconomics,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,pmc-PMC10085926-full-text-background
+bozzani-2022-pharmacoeconomics,RING_STUDY,False,False,False,False,True,True,True,False,False,True,False,high,high,pmc-PMC10085926-full-text-background;pmc-PMC10085926-full-text-results-other-prep
 chen-2023-rev-med-virol,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,chen-2023-rev-med-virol-abstract
 chen-2023-rev-med-virol,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,chen-2023-rev-med-virol-abstract
-chen-xiu-2023-rev-med-virol,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,chen-xiu-2023-rev-med-virol-abstract
-chen-xiu-2023-rev-med-virol,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,chen-xiu-2023-rev-med-virol-abstract
 chou-2023-jama,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,chou-2023-jama-abstract
 chou-2023-jama,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,chou-2023-jama-abstract
-chou-2023-jama-evidence-report,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,chou-2023-jama-evidence-report-abstract
-chou-2023-jama-evidence-report,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,chou-2023-jama-evidence-report-abstract
 ebrahim-2026-cochrane-db-syst-rev,PURPOSE_1,False,True,True,True,True,True,True,True,False,False,False,high,high,ebrahim-2026-cochrane-db-syst-rev-table-characteristics;ebrahim-2026-cochrane-db-syst-rev-abstract
 ebrahim-2026-cochrane-db-syst-rev,PURPOSE_2,False,True,True,True,True,False,False,False,True,False,False,high,high,ebrahim-2026-cochrane-db-syst-rev-table-characteristics;ebrahim-2026-cochrane-db-syst-rev-abstract
 erlwanger-2024-eclinicalmedicine,ASPIRE,False,True,True,True,True,True,True,True,False,False,False,high,high,erlwanger-2024-eclinicalmedicine-methods;erlwanger-2024-eclinicalmedicine-results-table1;erlwanger-2024-eclinicalmedicine-results-text
@@ -49,3 +49,7 @@ tieosapjaroen-2026-plosmed,PURPOSE_1,False,True,True,True,True,True,True,True,Fa
 tieosapjaroen-2026-plosmed,PURPOSE_2,False,True,False,True,True,False,False,False,True,False,False,high,high,tieosapjaroen-2026-plosmed-table1;tieosapjaroen-2026-plosmed-results-rams
 wang-2023-jmir-public-health-surveill,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,wang-2023-jmir-public-health-surveill-table1;wang-2023-jmir-public-health-surveill-discussion
 wang-2023-jmir-public-health-surveill,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,wang-2023-jmir-public-health-surveill-table1;wang-2023-jmir-public-health-surveill-discussion
+xi-2025-j-int-aids-soc,HPTN_083,False,False,False,False,True,False,False,False,False,False,True,high,high,pmc-PMC12640620-full-text-intro;pmc-PMC12640620-full-text-results-modality
+xi-2025-j-int-aids-soc,HPTN_084,False,False,False,False,True,True,True,False,False,True,False,high,high,pmc-PMC12640620-full-text-intro;pmc-PMC12640620-full-text-results-modality
+xi-2025-j-int-aids-soc,PURPOSE_1,False,False,False,False,True,True,True,False,False,True,False,high,high,pmc-PMC12640620-full-text-intro;pmc-PMC12640620-full-text-results-modality
+xi-2025-j-int-aids-soc,PURPOSE_2,False,False,False,False,True,False,False,False,False,False,True,high,high,pmc-PMC12640620-full-text-intro;pmc-PMC12640620-full-text-results-modality
