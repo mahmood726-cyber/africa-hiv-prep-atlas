@@ -91,27 +91,15 @@ def test_each_fixture_total_matches_country_sum():
 
 def test_each_fixture_classifies_under_at_least_d1():
     """Every fixture must have at least one site in an African country (D1 inclusion criterion)."""
-    # Broad list of African countries for D1 classification
-    african_countries = {
-        "South Africa", "Uganda", "Kenya", "Zimbabwe", "Botswana",
-        "Malawi", "Zambia", "Tanzania", "Rwanda", "Ethiopia",
-        "Nigeria", "Cameroon", "Ghana", "Côte d'Ivoire", "Senegal",
-        "Mali", "Burkina Faso", "Niger", "Chad", "Sudan",
-        "Egypt", "Morocco", "Algeria", "Tunisia", "Libya",
-        "Lesotho", "Eswatini", "Namibia", "Angola", "Congo",
-        "Democratic Republic of the Congo", "Gabon", "Equatorial Guinea",
-        "Benin", "Togo", "Liberia", "Sierra Leone", "Guinea",
-        "Guinea-Bissau", "Central African Republic", "Djibouti",
-        "Eritrea", "Mauritius", "Seychelles", "Comoros", "Mozambique",
-        "Madagascar", "Mauritania", "Gambia", "Cape Verde",
-    }
+    from africa_hiv_prep_atlas.countries import is_african
+
     for fixture_file in _fixture_files():
         with open(fixture_file) as f:
             trial = json.load(f)
         sites_by_country = trial.get("sites_by_country", {})
         african_sites = sum(
             count for country, count in sites_by_country.items()
-            if country in african_countries
+            if is_african(country)
         )
         assert african_sites >= 1, (
             f"{fixture_file.name}: no sites found in African countries. "
