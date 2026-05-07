@@ -14,7 +14,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(r"C:\Projects\africa-hiv-prep-atlas")
+# Resolve PROJECT_ROOT dynamically: use --repo CLI arg if passed, else parent of script's dir
+PROJECT_ROOT = Path(__file__).parent.parent
 
 
 def check_not_already_git_repo() -> tuple[bool, str]:
