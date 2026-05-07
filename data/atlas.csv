@@ -1,0 +1,1 @@
+ma_id,trial_id,claimed_a,claimed_b,claimed_c,claimed_union,truth_d1,truth_d2,truth_d3,tp_at_d3,fp_at_d3,fn_at_d3,tn_at_d3,confidence_layer_m,confidence_layer_t,source_lines

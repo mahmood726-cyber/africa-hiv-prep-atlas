@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IRR Audit — Rater REPLACE_AT_RUNTIME</title>
+<style>
+body { font-family: -apple-system, system-ui, sans-serif; margin: 1.5rem; max-width: 800px; }
+.pair { border: 1px solid #ccc; padding: 1rem; margin: 1rem 0; }
+blockquote { border-left: 3px solid #aac; padding-left: 0.6rem; margin: 0.5rem 0; }
+fieldset { margin: 0.6rem 0; }
+</style>
+</head>
+<body>
+<h1>IRR Audit — Rater <code>REPLACE_AT_RUNTIME</code></h1>
+<p>Read each MA quote and trial quote, then answer both questions. <strong>You are blinded to the algorithmic answers.</strong></p>
+<div id="pairs">
+
+</div>
+<button id="export" type="button">Export JSON</button>
+<pre id="export-out"></pre>
+<script>
+const RATER = "REPLACE_AT_RUNTIME";
+const NS = "ahpa-irr-REPLACE_AT_RUNTIME-";
+const pairs = document.querySelectorAll("section.pair");
+let idx = 0;
+function show(i) {
+  pairs.forEach(p => p.hidden = true);
+  if (i < pairs.length) {
+    pairs[i].hidden = false;
+  }
+}
+show(0);
+document.querySelectorAll('button[data-action="next"]').forEach(btn => {
+  btn.addEventListener("click", () => {
+    const sec = btn.closest("section.pair");
+    const id = sec.dataset.pairId;
+    const claim = sec.querySelector(`input[name="claim-${sec.dataset.pairIndex}"]:checked`);
+    const truth = sec.querySelector(`input[name="truth-${sec.dataset.pairIndex}"]:checked`);
+    if (!claim || !truth) { alert("Please answer both."); return; }
+    try {
+      localStorage.setItem(NS + id, JSON.stringify({
+        claim: claim.value === "true", truth: truth.value === "true",
+        ts: new Date().toISOString()
+      }));
+    } catch (e) {}
+    idx += 1;
+    show(idx);
+  });
+});
+document.getElementById("export").addEventListener("click", () => {
+  const out = {};
+  for (let k = 0; k < localStorage.length; k++) {
+    const key = localStorage.key(k);
+    if (key && key.startsWith(NS)) {
+      out[key.slice(NS.length)] = JSON.parse(localStorage.getItem(key));
+    }
+  }
+  document.getElementById("export-out").textContent = JSON.stringify(out, null, 2);
+});
+</script>
+</body>
+</html>
