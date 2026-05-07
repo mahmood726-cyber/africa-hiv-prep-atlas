@@ -1,0 +1,39 @@
+{
+  "trial_id": "HPTN_083",
+  "nct": "NCT02720094",
+  "pactr": null,
+  "modality": "cabotegravir-LA",
+  "year": 2020,
+  "enrolment_by_country": {
+    "United States": 652,
+    "Argentina": 653,
+    "Brazil": 653,
+    "Peru": 653,
+    "South Africa": 653,
+    "Thailand": 653,
+    "Vietnam": 653
+  },
+  "sites_by_country": {
+    "United States": 1,
+    "Argentina": 1,
+    "Brazil": 1,
+    "Peru": 1,
+    "South Africa": 1,
+    "Thailand": 1,
+    "Vietnam": 1
+  },
+  "total_enrolled": 4570,
+  "source_id": "landovitz-2021-nejm",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT02720094",
+      "text": "261160694|NCT02720094|United States|f\n261160695|NCT02720094|Argentina|f\n261160696|NCT02720094|Brazil|f\n261160697|NCT02720094|Peru|f\n261160698|NCT02720094|South Africa|f\n261160699|NCT02720094|Thailand|f\n261160700|NCT02720094|Vietnam|f"
+    },
+    {
+      "source_id": "34379922-abstract",
+      "locator": "PubMed PMID 34379922, abstract (DOI: 10.1056/NEJMoa2101016)",
+      "text": "The intention-to-treat population included 4566 participants who underwent randomization; 570 (12.5%) identified as transgender women, and the median age was 26 years (interquartile range, 22 to 32)."
+    }
+  ]
+}

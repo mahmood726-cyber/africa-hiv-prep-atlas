@@ -1,1 +1,8 @@
 trial_id,nct,pactr,modality,year,total_enrolled,african_n,african_fraction,truth_d1,truth_d2,truth_d3,source_id
+ASPIRE,NCT01617096,,dapivirine-ring,2012,2629,2629,1.0,True,True,True,baeten-2016-nejm
+HPTN_083,NCT02720094,,cabotegravir-LA,2020,4570,653,0.1429,True,False,False,landovitz-2021-nejm
+HPTN_084,NCT03164564,,cabotegravir-LA,2020,3224,3224,1.0,True,True,True,delany-moretlwe-2022-lancet
+MTN_025_HOPE,NCT02858037,,dapivirine-ring-OLE,2016,1456,1456,1.0,True,True,True,baeten-2021-lancet-hiv
+PURPOSE_1,NCT04994509,,lenacapavir,2021,5368,5368,1.0,True,True,True,bekker-2024-nejm
+PURPOSE_2,NCT04925752,,lenacapavir,2021,3292,411,0.1248,True,False,False,kelley-2024-nejm
+RING_STUDY,NCT01539226,,dapivirine-ring,2012,1959,1959,1.0,True,True,True,nel-2016-nejm

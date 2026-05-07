@@ -1,0 +1,30 @@
+{
+  "trial_id": "RING_STUDY",
+  "nct": "NCT01539226",
+  "pactr": null,
+  "modality": "dapivirine-ring",
+  "year": 2012,
+  "enrolment_by_country": {
+    "South Africa": 979,
+    "Uganda": 980
+  },
+  "sites_by_country": {
+    "Rwanda": 1,
+    "South Africa": 1,
+    "Uganda": 1
+  },
+  "total_enrolled": 1959,
+  "source_id": "nel-2016-nejm",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT01539226",
+      "text": "260583531|NCT01539226|Rwanda|t\n260583739|NCT01539226|South Africa|f\n260583740|NCT01539226|Uganda|f"
+    },
+    {
+      "source_id": "27959766-abstract",
+      "locator": "PubMed PMID 27959766, abstract (DOI: 10.1056/NEJMoa1602046)",
+      "text": "We evaluated the safety and efficacy of extended use of a vaginal ring containing dapivirine for the prevention of HIV infection in 1959 healthy, sexually active women, 18 to 45 years of age, from seven communities in South Africa and Uganda."
+    }
+  ]
+}

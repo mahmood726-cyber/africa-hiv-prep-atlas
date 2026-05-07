@@ -1,0 +1,33 @@
+{
+  "trial_id": "MTN_025_HOPE",
+  "nct": "NCT02858037",
+  "pactr": null,
+  "modality": "dapivirine-ring-OLE",
+  "year": 2016,
+  "enrolment_by_country": {
+    "Malawi": 364,
+    "South Africa": 364,
+    "Uganda": 364,
+    "Zimbabwe": 364
+  },
+  "sites_by_country": {
+    "Malawi": 1,
+    "South Africa": 1,
+    "Uganda": 1,
+    "Zimbabwe": 1
+  },
+  "total_enrolled": 1456,
+  "source_id": "baeten-2021-lancet-hiv",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT02858037",
+      "text": "261021593|NCT02858037|Malawi|f\n261021594|NCT02858037|South Africa|f\n261021595|NCT02858037|Uganda|f\n261021596|NCT02858037|Zimbabwe|f"
+    },
+    {
+      "source_id": "33539762-abstract",
+      "locator": "PubMed PMID 33539762, abstract (DOI: 10.1016/S2352-3018(20)30304-0)",
+      "text": "Women who were HIV-1-negative and had participated in the MTN-020/ASPIRE phase 3 trial were offered 12 months of access to the DVR at 14 clinical research centres in Malawi, South Africa, Uganda, and Zimbabwe."
+    }
+  ]
+}

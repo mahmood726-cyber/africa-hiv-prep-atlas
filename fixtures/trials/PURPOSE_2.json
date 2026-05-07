@@ -1,0 +1,41 @@
+{
+  "trial_id": "PURPOSE_2",
+  "nct": "NCT04925752",
+  "pactr": null,
+  "modality": "lenacapavir",
+  "year": 2021,
+  "enrolment_by_country": {
+    "United States": 412,
+    "Argentina": 412,
+    "Brazil": 412,
+    "Mexico": 412,
+    "Peru": 411,
+    "Puerto Rico": 411,
+    "South Africa": 411,
+    "Thailand": 411
+  },
+  "sites_by_country": {
+    "United States": 1,
+    "Argentina": 1,
+    "Brazil": 1,
+    "Mexico": 1,
+    "Peru": 1,
+    "Puerto Rico": 1,
+    "South Africa": 1,
+    "Thailand": 1
+  },
+  "total_enrolled": 3292,
+  "source_id": "kelley-2024-nejm",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT04925752",
+      "text": "260665395|NCT04925752|United States|f\n260665396|NCT04925752|Argentina|f\n260665397|NCT04925752|Brazil|f\n260665398|NCT04925752|Mexico|f\n260665399|NCT04925752|Peru|f\n260665400|NCT04925752|Puerto Rico|f\n260665401|NCT04925752|South Africa|f\n260665402|NCT04925752|Thailand|f"
+    },
+    {
+      "source_id": "39602624-abstract",
+      "locator": "PubMed PMID 39602624, abstract (DOI: 10.1056/NEJMoa2411858)",
+      "text": "Among 3265 participants who were included in the modified intention-to-treat analysis, HIV infections occurred in 2 participants in the lenacapavir group (0.10 per 100 person-years; 95% confidence interval [CI], 0.01 to 0.37) and in 9 participants in the F/TDF group (0.93 per 100 person-years; 95% CI, 0.43 to 1.77)."
+    }
+  ]
+}

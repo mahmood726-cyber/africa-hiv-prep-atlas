@@ -1,0 +1,39 @@
+{
+  "trial_id": "HPTN_084",
+  "nct": "NCT03164564",
+  "pactr": null,
+  "modality": "cabotegravir-LA",
+  "year": 2020,
+  "enrolment_by_country": {
+    "Botswana": 460,
+    "Eswatini": 460,
+    "Kenya": 460,
+    "Malawi": 461,
+    "South Africa": 461,
+    "Uganda": 461,
+    "Zimbabwe": 461
+  },
+  "sites_by_country": {
+    "Botswana": 1,
+    "Eswatini": 1,
+    "Kenya": 1,
+    "Malawi": 1,
+    "South Africa": 1,
+    "Uganda": 1,
+    "Zimbabwe": 1
+  },
+  "total_enrolled": 3224,
+  "source_id": "delany-moretlwe-2022-lancet",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT03164564",
+      "text": "260801710|NCT03164564|Botswana|f\n260801711|NCT03164564|Eswatini|f\n260801712|NCT03164564|Kenya|f\n260801713|NCT03164564|Malawi|f\n260801714|NCT03164564|South Africa|f\n260801715|NCT03164564|Uganda|f\n260801716|NCT03164564|Zimbabwe|f"
+    },
+    {
+      "source_id": "35378077-abstract",
+      "locator": "PubMed PMID 35378077, abstract (DOI: 10.1016/S0140-6736(22)00538-4)",
+      "text": "HPTN 084 was a phase 3, randomised, double-blind, double-dummy, active-controlled, superiority trial in 20 clinical research sites in seven countries in sub-Saharan Africa."
+    }
+  ]
+}

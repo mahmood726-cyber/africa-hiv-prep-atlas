@@ -1,0 +1,29 @@
+{
+  "trial_id": "PURPOSE_1",
+  "nct": "NCT04994509",
+  "pactr": null,
+  "modality": "lenacapavir",
+  "year": 2021,
+  "enrolment_by_country": {
+    "South Africa": 2684,
+    "Uganda": 2684
+  },
+  "sites_by_country": {
+    "South Africa": 1,
+    "Uganda": 1
+  },
+  "total_enrolled": 5368,
+  "source_id": "bekker-2024-nejm",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT04994509",
+      "text": "261106212|NCT04994509|South Africa|f\n261106213|NCT04994509|Uganda|f"
+    },
+    {
+      "source_id": "39046157-abstract",
+      "locator": "PubMed PMID 39046157, abstract (DOI: 10.1056/NEJMoa2407001)",
+      "text": "We conducted a phase 3, double-blind, randomized, controlled trial involving adolescent girls and young women in South Africa and Uganda."
+    }
+  ]
+}

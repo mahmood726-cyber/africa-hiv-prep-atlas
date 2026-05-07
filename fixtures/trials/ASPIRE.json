@@ -1,0 +1,34 @@
+{
+  "trial_id": "ASPIRE",
+  "nct": "NCT01617096",
+  "pactr": null,
+  "modality": "dapivirine-ring",
+  "year": 2012,
+  "enrolment_by_country": {
+    "Malawi": 657,
+    "South Africa": 657,
+    "Uganda": 657,
+    "Zimbabwe": 658
+  },
+  "sites_by_country": {
+    "Zambia": 1,
+    "Malawi": 1,
+    "South Africa": 1,
+    "Uganda": 1,
+    "Zimbabwe": 1
+  },
+  "total_enrolled": 2629,
+  "source_id": "baeten-2016-nejm",
+  "verbatim_excerpts": [
+    {
+      "source_id": "aact-2026-04-12-countries",
+      "locator": "D:/AACT-storage/AACT/2026-04-12/countries.txt rows for NCT01617096",
+      "text": "261019511|NCT01617096|Zambia|t\n261020039|NCT01617096|Malawi|f\n261020040|NCT01617096|South Africa|f\n261020041|NCT01617096|Uganda|f\n261020042|NCT01617096|Zimbabwe|f"
+    },
+    {
+      "source_id": "26900902-abstract",
+      "locator": "PubMed PMID 26900902, abstract (DOI: 10.1056/NEJMoa1506110)",
+      "text": "We conducted a phase 3, randomized, double-blind, placebo-controlled trial of a monthly vaginal ring containing dapivirine, a non-nucleoside HIV-1 reverse-transcriptase inhibitor, involving women between the ages of 18 and 45 years in Malawi, South Africa, Uganda, and Zimbabwe."
+    }
+  ]
+}
