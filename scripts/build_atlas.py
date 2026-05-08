@@ -18,7 +18,7 @@ from africa_hiv_prep_atlas.csv_writers import (
     write_atlas_csv, write_trials_csv, write_mas_csv,
 )
 from africa_hiv_prep_atlas.bootstrap import (
-    cluster_bootstrap_sens_spec, permutation_sens_spec, choose_method,
+    cluster_bootstrap_sens_spec, permutation_sens_spec, choose_method, sweep_definitions,
 )
 from africa_hiv_prep_atlas.dashboard import render_dashboard
 from africa_hiv_prep_atlas.verification import render_verification_ui
@@ -101,6 +101,9 @@ def main() -> int:
     fn = cluster_bootstrap_sens_spec if method == "clustered_bootstrap" else permutation_sens_spec
     headline = fn(atlas_rows, n_reps=1000, seed=42)
 
+    # Pre-specified sensitivity sweep (D1/D2/D3) -- spec §3, no inferential adjustment.
+    sweep = sweep_definitions(atlas_rows, n_reps=1000, seed=42)
+
     # Re-derive enriched rows (with claimed_union + cell flags) for the dashboard.
     buf = io.StringIO()
     write_atlas_csv(atlas_rows, buf)
@@ -115,9 +118,17 @@ def main() -> int:
     ]
     (REPO / "outputs").mkdir(parents=True, exist_ok=True)
     (REPO / "outputs" / "dashboard.html").write_text(
-        render_dashboard(enriched, headline), encoding="utf-8",
+        render_dashboard(enriched, headline, sweep=sweep), encoding="utf-8",
     )
     print(f"wrote outputs/dashboard.html (method={headline['method']})")
+    for defn in ("d1", "d2", "d3"):
+        d = sweep[defn]
+        lo_s, hi_s = d["sens_ci"]
+        lo_p, hi_p = d["spec_ci"]
+        print(
+            f"  sweep {defn.upper()}: sens={d['sensitivity']:.2f} ({lo_s:.2f}-{hi_s:.2f})"
+            f"  spec={d['specificity']:.2f} ({lo_p:.2f}-{hi_p:.2f})"
+        )
 
     # Generate verification.html
     verification_pairs: list[dict] = []

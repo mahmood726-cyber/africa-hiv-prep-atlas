@@ -5,9 +5,9 @@
 
 ## Headline (pre-IRR)
 
-**Across 54 (MA, trial) pairs in 20 long-acting HIV PrEP MAs (2020–2026), MAs
-classified African-cohort trials with 35% sensitivity (95% CI 15–60%) and 71%
-specificity (95% CI 44–94%) at the D3 ground truth (≥50% enrolment from African
+**Across 54 (MA, trial) pairs in 20 long-acting HIV PrEP MAs (2020-2026), MAs
+classified African-cohort trials with 35% sensitivity (95% CI 15-60%) and 71%
+specificity (95% CI 44-94%) at the D3 ground truth (>=50% enrolment from African
 sites). Method: clustered bootstrap, n_clusters=20.**
 
 Confusion matrix: TP=13, FP=5, FN=24, TN=12.
@@ -16,6 +16,36 @@ Calibration finding: MAs systematically under-detect African-cohort coverage.
 65% of actually-African long-acting PrEP trials (24/37) are cited but NOT
 classified as African in any of three Layer-M layers (explicit count, table,
 narrative).
+
+## Sensitivity sweep (pre-specified)
+
+Per spec §3: D1 and D2 are reported in a single sensitivity table without
+inferential adjustment. Same clustered-bootstrap procedure (n_reps=1000, seed=42)
+as the primary D3 metric.
+
+| Definition | Sensitivity (95% CI) | Specificity (95% CI) |
+|---|---|---|
+| D1: >=1 African site | 0.33 (0.13-0.56) | undefined (see note) |
+| D2: >=50% sites African | 0.35 (0.15-0.60) | 0.71 (0.44-0.94) |
+| **D3: >=50% enrolment African (primary)** | 0.35 (0.15-0.60) | 0.71 (0.44-0.94) |
+
+D1 specificity is undefined: all 7 fixtures qualify as African under the
+>=1-African-site criterion (TP=18, FP=0, FN=36, TN=0 -- zero true negatives),
+so specificity = TN/(TN+FP) = 0/0. This is itself a finding: the D1 definition
+has no discriminative power in this cohort because every included trial had at
+least one African site by design (PrEP/PEP trial selection criteria enforce
+African-site presence).
+
+D1 sensitivity (0.33) is marginally lower than D3 (0.35) rather than higher
+because the D1 denominator is larger (18+36=54 vs D3's 13+24=37 positives):
+more trials count as true positives at D1, but the MAs are even less likely to
+classify them correctly, yielding lower proportional recall.
+
+D2 = D3 on this fixture set: the seven included trials all exceed or fall below
+the 50% threshold on both the site-share (D2) and enrolment-share (D3) criteria
+simultaneously, so the confusion matrices are identical.
+
+All values seed=42, n_reps=1000, clustered bootstrap, n_clusters=20.
 
 ## Trial-level caveats
 

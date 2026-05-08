@@ -65,3 +65,36 @@ def test_dashboard_div_balance():
     n_open = len(re.findall(r"<div[\s>]", html))
     n_close = html.count("</div>")
     assert n_open == n_close, f"open={n_open} close={n_close}"
+
+
+def test_dashboard_renders_sensitivity_sweep():
+    """Sweep table with D1/D2/D3 rows must appear in generated HTML."""
+    rows, headline = _sample()
+    sweep = {
+        "d1": {"sensitivity": 0.90, "specificity": 0.60,
+               "sens_ci": (0.80, 0.97), "spec_ci": (0.45, 0.73),
+               "method": "clustered_bootstrap", "n_clusters": 12},
+        "d2": {"sensitivity": 0.75, "specificity": 0.72,
+               "sens_ci": (0.62, 0.86), "spec_ci": (0.58, 0.84),
+               "method": "clustered_bootstrap", "n_clusters": 12},
+        "d3": {"sensitivity": 0.35, "specificity": 0.71,
+               "sens_ci": (0.15, 0.60), "spec_ci": (0.44, 0.94),
+               "method": "clustered_bootstrap", "n_clusters": 12},
+    }
+    html = render_dashboard(rows, headline, sweep=sweep)
+    assert "Sensitivity sweep" in html
+    assert "D1" in html or ">=1 African site" in html
+    assert "D2" in html or ">=50% sites" in html
+    assert "D3" in html or ">=50% enrolment" in html
+    # Point estimates for each definition
+    assert "0.90" in html  # D1 sensitivity
+    assert "0.75" in html  # D2 sensitivity
+    assert "0.35" in html  # D3 sensitivity
+
+
+def test_dashboard_sweep_defaults_none_backward_compat():
+    """Old callers that omit sweep argument should still get valid HTML."""
+    rows, headline = _sample()
+    html = render_dashboard(rows, headline)
+    assert "</html>" in html
+    assert "Sensitivity sweep" not in html
