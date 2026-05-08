@@ -7,16 +7,30 @@
       "c": true,
       "source_lines": [
         "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
-        "ebrahim-2026-cochrane-db-syst-rev-abstract"
+        "ebrahim-2026-cochrane-db-syst-rev-abstract",
+        "ebrahim-2026-cochrane-db-syst-rev-fulltext-methods",
+        "ebrahim-2026-cochrane-db-syst-rev-fulltext-discussion"
       ],
       "verbatim_quotes": [
         {
           "source_id": "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+          "layer": "b",
           "text": "Bekker 2024South Africa and Uganda  RCTFunded by Gilead Sciences; PURPOSE 1(ClinicalTrials.gov number, NCT04994509)"
         },
         {
           "source_id": "ebrahim-2026-cochrane-db-syst-rev-abstract",
+          "layer": "c",
           "text": "The first trial, conducted in South Africa and Uganda, included adolescent girls and young women (16 to 25 years) and compared injectable lenacapavir with daily oral PrEP consisting of F/TAF in one comparator arm and F/TDF in the other."
+        },
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-fulltext-methods",
+          "layer": "c",
+          "text": "Both studies were multicentre trials (Bekker 2024; Kelley 2025), conducted in South Africa and Uganda (Bekker 2024) and the USA, Brazil, Thailand, South Africa, Peru, Argentina, and Mexico (Kelley 2025)."
+        },
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-fulltext-discussion",
+          "layer": "c",
+          "text": "While the two included trials, PURPOSE 1 (Bekker 2024) (adolescent girls and young women in South Africa and Uganda) and PURPOSE 2 (Kelley 2025) (men and gender-diverse persons in various global settings, including a mix of high-income and upper-middle-income countries), provide important data on key at-risk populations, notable gaps remain."
         }
       ]
     },
@@ -26,16 +40,25 @@
       "c": true,
       "source_lines": [
         "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
-        "ebrahim-2026-cochrane-db-syst-rev-abstract"
+        "ebrahim-2026-cochrane-db-syst-rev-abstract",
+        "ebrahim-2026-cochrane-db-syst-rev-fulltext-methods",
+        "ebrahim-2026-cochrane-db-syst-rev-fulltext-discussion"
       ],
       "verbatim_quotes": [
         {
           "source_id": "ebrahim-2026-cochrane-db-syst-rev-table-characteristics",
+          "layer": "b",
           "text": "Kelley 2025USA, Brazil, Thailand,South Africa, Peru, Argentina, andMexico  RCTFunded by Gilead Sciences; PURPOSE 2(ClinicalTrials.gov number, NCT04925752)"
         },
         {
           "source_id": "ebrahim-2026-cochrane-db-syst-rev-abstract",
+          "layer": "c",
           "text": "The second trial, conducted in the USA, Brazil, Thailand, South Africa, Peru, Argentina, and Mexico, included cisgender gay, bisexual and other men, transgender women, transgender men, and gender-nonbinary persons of any age who have condomless, receptive anal sex with partners assigned male at birth."
+        },
+        {
+          "source_id": "ebrahim-2026-cochrane-db-syst-rev-fulltext-methods",
+          "layer": "c",
+          "text": "Both studies were multicentre trials (Bekker 2024; Kelley 2025), conducted in South Africa and Uganda (Bekker 2024) and the USA, Brazil, Thailand, South Africa, Peru, Argentina, and Mexico (Kelley 2025)."
         }
       ]
     }

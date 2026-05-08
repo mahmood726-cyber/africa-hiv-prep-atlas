@@ -6,7 +6,9 @@
   "pmid": "33719075",
   "search_date": "2020-08-31",
   "cited_trial_ids": ["ASPIRE", "RING_STUDY"],
+  "pmcid": "PMC8092571",
   "full_text_source_id": "pubmed-33719075-abstract",
+  "full_text_note": "PMC8092571 record exists but returns empty full_text field (Wiley-restricted Cochrane content). Extraction limited to abstract only. Trial names ASPIRE and RING_STUDY do not appear in abstract; confirmed via PMC fetch 2026-05-08.",
   "search_strategy_excerpt": {
     "source_id": "obiero-2021-cochrane-db-syst-rev-abstract",
     "locator": "Abstract, Search methods",
