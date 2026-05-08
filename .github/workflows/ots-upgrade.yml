@@ -1,15 +1,14 @@
 name: OTS upgrade calendar stamps to Bitcoin proofs
 
 # Calendar-stamped .ots files (from ots-on-tag.yml) become Bitcoin-block-confirmed
-# ~24h after stamping when the calendar server's commitment lands in a Bitcoin block.
-# This workflow runs `ots upgrade` daily — it's idempotent (no-op if already upgraded
-# or if Bitcoin confirmation not yet available) and only commits when a proof
-# actually changes from calendar-only to Bitcoin-confirmed.
+# about 24h after stamping when the calendar server's commitment lands in a Bitcoin
+# block. This workflow runs ots-upgrade daily. It is idempotent: only commits when
+# a proof actually changes from calendar-only to Bitcoin-confirmed.
 
 on:
   workflow_dispatch:
   schedule:
-    # Daily at 06:00 UTC — gives ~24h drift coverage for any stamp committed
+    # Daily at 06:00 UTC. Gives ~24h drift coverage for any stamp committed
     # within the prior 24h window.
     - cron: "0 6 * * *"
 
@@ -38,14 +37,11 @@ jobs:
         shell: bash
         run: |
           if ! ls .ots/*.ots > /dev/null 2>&1; then
-            echo "No .ots files in .ots/ — nothing to upgrade"
+            echo "No .ots files in .ots/ - nothing to upgrade"
             exit 0
           fi
           for f in .ots/*.ots; do
             echo "--- $f ---"
-            # ots upgrade is idempotent: returns 0 + no file change when already
-            # upgraded or when calendar hasn't yet posted a Bitcoin attestation.
-            # Only mutates the file when a NEW Bitcoin attestation is available.
             ots upgrade "$f" || echo "  (upgrade returned non-zero; continuing)"
           done
 
