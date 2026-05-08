@@ -98,3 +98,31 @@ def test_dashboard_sweep_defaults_none_backward_compat():
     html = render_dashboard(rows, headline)
     assert "</html>" in html
     assert "Sensitivity sweep" not in html
+
+
+def test_dashboard_renders_per_ma_matrix_svg():
+    rows = [
+        {"ma_id": "M1", "trial_id": "T1",
+         "claimed_a": False, "claimed_b": False, "claimed_c": False, "claimed_union": False,
+         "truth_d1": True, "truth_d2": True, "truth_d3": True,
+         "tp_at_d3": False, "fp_at_d3": False, "fn_at_d3": True, "tn_at_d3": False,
+         "confidence_layer_m": "high", "confidence_layer_t": "high"},
+        {"ma_id": "M2", "trial_id": "T2",
+         "claimed_a": True, "claimed_b": True, "claimed_c": True, "claimed_union": True,
+         "truth_d1": True, "truth_d2": True, "truth_d3": True,
+         "tp_at_d3": True, "fp_at_d3": False, "fn_at_d3": False, "tn_at_d3": False,
+         "confidence_layer_m": "high", "confidence_layer_t": "high"},
+    ]
+    headline = {"sensitivity": 0.5, "specificity": 1.0,
+                "sens_ci": (0.0, 1.0), "spec_ci": (0.0, 1.0),
+                "method": "clustered_bootstrap", "n_clusters": 2}
+    html = render_dashboard(rows, headline)
+    assert "<svg" in html
+    assert "Per-MA confusion matrix" in html
+    # Both MAs should appear as row labels and both trials as col labels
+    assert ">M1<" in html and ">M2<" in html
+    assert ">T1<" in html and ">T2<" in html
+    # FN cell color (orange) must appear since M1 has fn_at_d3
+    assert "#f4a261" in html
+    # TP cell color (green) must appear since M2 has tp_at_d3
+    assert "#9be09b" in html

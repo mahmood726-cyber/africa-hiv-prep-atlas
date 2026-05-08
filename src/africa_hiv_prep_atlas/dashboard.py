@@ -66,6 +66,106 @@ def _render_sweep_table(sweep: dict) -> str:
     )
 
 
+CELL_COLORS = {
+    "tp": "#9be09b",  # correct positive (MA correctly classified African-cohort)
+    "fp": "#f29b9b",  # wrongly claimed African
+    "fn": "#f4a261",  # missed African (the calibration gap)
+    "tn": "#d3d3d3",  # correct negative
+    "nc": "#ffffff",  # trial not cited by this MA
+}
+
+
+def _classify_cell(r: dict | None) -> str:
+    if r is None:
+        return "nc"
+    if r.get("tp_at_d3"):
+        return "tp"
+    if r.get("fp_at_d3"):
+        return "fp"
+    if r.get("fn_at_d3"):
+        return "fn"
+    return "tn"
+
+
+def _render_per_ma_matrix(rows: list[dict]) -> str:
+    """Inline-SVG matrix: rows=MAs, cols=trials, cells colored by confusion class.
+
+    Visualises which MAs drive each FP/FN cell - the kind of figure that goes
+    in a paper. White cells = trial not cited by that MA.
+    """
+    if not rows:
+        return ""
+    ma_ids = sorted({r["ma_id"] for r in rows})
+    trial_ids = sorted({r["trial_id"] for r in rows})
+    by_pair = {(r["ma_id"], r["trial_id"]): r for r in rows}
+
+    cell = 22
+    label_left = 240
+    label_top = 110
+    width = label_left + cell * len(trial_ids) + 20
+    height = label_top + cell * len(ma_ids) + 80
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
+        f'role="img" aria-label="Per-MA confusion matrix" '
+        f'style="font-family: -apple-system, system-ui, sans-serif; font-size: 11px;">'
+    ]
+    # Column labels (rotated)
+    for j, tid in enumerate(trial_ids):
+        x = label_left + j * cell + cell / 2
+        parts.append(
+            f'<text x="{x}" y="{label_top - 8}" text-anchor="end" '
+            f'transform="rotate(-50 {x},{label_top - 8})">{_html.escape(tid)}</text>'
+        )
+    # Row labels + cells
+    for i, ma in enumerate(ma_ids):
+        y_label = label_top + i * cell + cell - 6
+        ma_short = ma if len(ma) <= 36 else ma[:33] + "..."
+        parts.append(
+            f'<text x="{label_left - 6}" y="{y_label}" text-anchor="end">{_html.escape(ma_short)}</text>'
+        )
+        for j, tid in enumerate(trial_ids):
+            r = by_pair.get((ma, tid))
+            cls = _classify_cell(r)
+            color = CELL_COLORS[cls]
+            x = label_left + j * cell
+            y = label_top + i * cell
+            parts.append(
+                f'<rect x="{x}" y="{y}" width="{cell - 1}" height="{cell - 1}" '
+                f'fill="{color}" stroke="#999" stroke-width="0.5">'
+                f'<title>{_html.escape(ma)} x {_html.escape(tid)}: {cls.upper()}</title>'
+                f'</rect>'
+            )
+    # Legend
+    legend_y = label_top + cell * len(ma_ids) + 24
+    legend_items = [
+        ("tp", "True positive (MA correctly classified African)"),
+        ("fp", "False positive (MA wrongly claimed African)"),
+        ("fn", "False negative (MA missed African-cohort trial)"),
+        ("tn", "True negative (correctly non-African)"),
+        ("nc", "Trial not cited by this MA"),
+    ]
+    lx = label_left
+    for cls, label in legend_items:
+        parts.append(
+            f'<rect x="{lx}" y="{legend_y}" width="14" height="14" '
+            f'fill="{CELL_COLORS[cls]}" stroke="#999" stroke-width="0.5"/>'
+            f'<text x="{lx + 18}" y="{legend_y + 11}">{_html.escape(label)}</text>'
+        )
+        lx += 240
+        if lx > width - 100:
+            lx = label_left
+            legend_y += 18
+    parts.append("</svg>")
+    return (
+        "<h2>Per-MA confusion matrix</h2>\n"
+        '<p style="font-size: 0.9rem; color: #666;">Each cell is one (MA, trial) pair. '
+        'Orange = false negative (MA cited an African-cohort trial without classifying it as African) - '
+        'these cells are the calibration gap.</p>\n'
+        + "".join(parts)
+    )
+
+
 def render_dashboard(rows: list[dict], headline: dict, sweep: dict | None = None) -> str:
     rows_html = "\n".join(_row_to_tr(r) for r in rows)
     headline_json = json.dumps(headline)
@@ -74,6 +174,7 @@ def render_dashboard(rows: list[dict], headline: dict, sweep: dict | None = None
     sens_lo, sens_hi = headline["sens_ci"]
     spec_lo, spec_hi = headline["spec_ci"]
     sweep_section = _render_sweep_table(sweep) if sweep else ""
+    matrix_section = _render_per_ma_matrix(rows)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -99,6 +200,7 @@ th, td {{ border: 1px solid #ccc; padding: 0.4rem; text-align: left; }}
   <p><em>Method:</em> {_html.escape(headline.get("method", "?"))} - n_clusters={headline.get("n_clusters", "?")}</p>
 </div>
 {sweep_section}
+{matrix_section}
 <h2>Atlas rows</h2>
 <table>
 <thead><tr><th>MA</th><th>Trial</th><th>MA classified African?</th><th>Truth (D3)</th><th>Cell</th></tr></thead>
