@@ -1,22 +1,18 @@
-name: OTS stamp prereg + release artifacts
-
-# Runs OpenTimestamps on Linux (where opentimestamps-client 0.7.2 works) to
-# bypass the Python 3.13 + Windows libeay32 SSL-loader bug. Same Bitcoin-anchored
-# proof as a local stamp; calendar server commits within seconds, Bitcoin block
-# confirmation upgrades the .ots ~24h later (run `ots upgrade <file>.ots` then).
+name: OTS stamp prereg and release artifacts
 
 on:
+  workflow_dispatch:
   push:
     tags:
-      - 'prereg-*'
-      - 'v*'
-  workflow_dispatch:
+      - "prereg-*"
+      - "v*"
+
+permissions:
+  contents: write
 
 jobs:
   ots-stamp:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout master
         uses: actions/checkout@v4
@@ -27,40 +23,36 @@ jobs:
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Install opentimestamps-client
-        run: pip install 'opentimestamps-client>=0.7.2'
+        run: pip install "opentimestamps-client>=0.7.2"
 
       - name: Stamp artifacts (idempotent)
+        shell: bash
         run: |
           mkdir -p .ots
           stamp_if_missing() {
-            local src="$1"
-            local dest="$2"
-            if [ -f "$src" ] && [ ! -f "$dest" ]; then
-              ots stamp "$src"
-              mv "${src}.ots" "$dest"
-              echo "Stamped: $src -> $dest"
-            elif [ ! -f "$src" ]; then
-              echo "Skip (missing source): $src"
+            if [ -f "$1" ] && [ ! -f "$2" ]; then
+              ots stamp "$1"
+              mv "$1.ots" "$2"
+              echo "Stamped: $1 -> $2"
+            elif [ ! -f "$1" ]; then
+              echo "Skip (missing source): $1"
             else
-              echo "Skip (already stamped): $dest"
+              echo "Skip (already stamped): $2"
             fi
           }
-          # prereg-v0.0.1 (spec freeze, pre-data)
           stamp_if_missing prereg/v0.0.1/spec.md .ots/prereg-v0.0.1-spec.md.ots
-          # prereg-v0.1.0-amend-1 (extraction freeze, pre-IRR)
           stamp_if_missing prereg/v0.1.0-amend-1/spec.md .ots/prereg-v0.1.0-amend-1-spec.md.ots
           stamp_if_missing prereg/v0.1.0-amend-1/atlas.csv .ots/prereg-v0.1.0-amend-1-atlas.csv.ots
-          # v0.1.0 release artifacts (will exist when v0.1.0 is tagged)
           stamp_if_missing prereg/v0.1.0/spec.md .ots/v0.1.0-prereg-spec.md.ots
           stamp_if_missing prereg/v0.1.0/atlas.csv .ots/v0.1.0-atlas.csv.ots
           stamp_if_missing prereg/v0.1.0/dashboard.html .ots/v0.1.0-dashboard.html.ots
-          echo "---"
           ls -la .ots/
 
-      - name: Commit .ots files (if any new)
+      - name: Commit and push .ots files
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,17 +60,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new .ots files to commit"
           else
-            TRIGGER="${{ github.event_name }}"
-            REF="${{ github.ref }}"
-            git commit -m "chore(ots): stamp prereg artifacts via GitHub Actions
-
-Triggered by: ${TRIGGER} (ref: ${REF})
-
-OTS proofs anchor the artifacts at calendar.opentimestamps.org and will
-upgrade to Bitcoin block-confirmed proofs ~24h post-stamp. Run
-\`ots upgrade .ots/<file>.ots\` later to fetch the upgraded proof, then
-re-commit the upgraded files.
-
-Workflow source: .github/workflows/ots-on-tag.yml"
+            git commit -m "chore(ots): stamp prereg artifacts via GitHub Actions"
             git push origin master
           fi
