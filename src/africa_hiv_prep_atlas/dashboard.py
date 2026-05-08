@@ -166,6 +166,49 @@ def _render_per_ma_matrix(rows: list[dict]) -> str:
     )
 
 
+def _render_per_ma_stats(rows: list[dict]) -> str:
+    """Per-MA stats table: counts + miss rate, sorted by FN (worst calibration first)."""
+    if not rows:
+        return ""
+    by_ma: dict[str, dict] = {}
+    for r in rows:
+        ma = r["ma_id"]
+        d = by_ma.setdefault(ma, {"n": 0, "tp": 0, "fp": 0, "fn": 0, "tn": 0})
+        d["n"] += 1
+        if r.get("tp_at_d3"):
+            d["tp"] += 1
+        elif r.get("fp_at_d3"):
+            d["fp"] += 1
+        elif r.get("fn_at_d3"):
+            d["fn"] += 1
+        else:
+            d["tn"] += 1
+    # Sort by FN descending (worst calibration first), tiebreak by ma_id.
+    ordered = sorted(by_ma.items(), key=lambda kv: (-kv[1]["fn"], kv[0]))
+    body_rows = []
+    for ma, d in ordered:
+        positives = d["tp"] + d["fn"]
+        miss_rate = f"{d['fn'] / positives * 100:.0f}%" if positives else "n/a"
+        body_rows.append(
+            f"<tr><td>{_html.escape(ma)}</td>"
+            f"<td>{d['n']}</td>"
+            f"<td>{d['tp']}</td>"
+            f"<td>{d['fp']}</td>"
+            f"<td>{d['fn']}</td>"
+            f"<td>{d['tn']}</td>"
+            f"<td>{miss_rate}</td></tr>"
+        )
+    body = "\n".join(body_rows)
+    return (
+        "<h2>Per-MA stats (sorted by FN count, worst calibration first)</h2>\n"
+        '<p style="font-size: 0.9rem; color: #666;">Miss rate = FN / (TP + FN). '
+        'High miss rate means the MA cites African-cohort trials without classifying them as African.</p>\n'
+        '<table>\n<thead><tr><th>MA</th><th>n pairs</th><th>TP</th><th>FP</th>'
+        '<th>FN</th><th>TN</th><th>Miss rate</th></tr></thead>\n'
+        f"<tbody>\n{body}\n</tbody>\n</table>"
+    )
+
+
 def render_dashboard(rows: list[dict], headline: dict, sweep: dict | None = None) -> str:
     rows_html = "\n".join(_row_to_tr(r) for r in rows)
     headline_json = json.dumps(headline)
@@ -175,6 +218,7 @@ def render_dashboard(rows: list[dict], headline: dict, sweep: dict | None = None
     spec_lo, spec_hi = headline["spec_ci"]
     sweep_section = _render_sweep_table(sweep) if sweep else ""
     matrix_section = _render_per_ma_matrix(rows)
+    stats_section = _render_per_ma_stats(rows)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -201,6 +245,7 @@ th, td {{ border: 1px solid #ccc; padding: 0.4rem; text-align: left; }}
 </div>
 {sweep_section}
 {matrix_section}
+{stats_section}
 <h2>Atlas rows</h2>
 <table>
 <thead><tr><th>MA</th><th>Trial</th><th>MA classified African?</th><th>Truth (D3)</th><th>Cell</th></tr></thead>
