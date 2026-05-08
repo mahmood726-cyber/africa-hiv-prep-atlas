@@ -47,10 +47,14 @@ SECTIONS = {
         "The confusion matrix was: TP=13, FP=5, FN=24, TN=12. "
         "65% of actually-African LA-PrEP trials (24/37 MA-trial pairs) were "
         "cited but not classified as African across any of the three Layer-M "
-        "layers. Cost-effectiveness MAs (2/20) contributed 5 false negatives "
-        "through citation-by-number rather than narrative trial-naming. "
-        "Pre-IRR working numbers; final values pending kappa >= 0.80 "
-        "dual-rater audit (Task 20)."
+        "layers. The pre-specified D2 sensitivity sweep (>=50% sites African) "
+        "produced an identical confusion matrix to D3, confirming the result "
+        "is invariant across reasonable site-share vs enrolment-share thresholds; "
+        "D1 (>=1 African site) was non-discriminating because every fixture "
+        "has at least one African site (TN=0). Cost-effectiveness MAs (2/20) "
+        "contributed 5 false negatives through citation-by-number rather than "
+        "narrative trial-naming. Pre-IRR working numbers; final values pending "
+        "kappa >= 0.80 dual-rater audit (Task 20)."
     ),
     "Discussion": (
         "MAs systematically under-detect African cohort composition in "
