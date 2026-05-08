@@ -55,11 +55,6 @@ jobs:
             echo "No .ots upgrades available yet (Bitcoin confirmation pending)"
           else
             UPGRADED=$(git diff --cached --name-only | tr '\n' ' ')
-            git commit -m "chore(ots): upgrade calendar stamps to Bitcoin proofs
-
-Files upgraded: ${UPGRADED}
-
-These .ots proofs now carry a Bitcoin block attestation. Verify any
-proof at any time with: ots verify <file>.ots <original-file>"
+            git commit -m "chore(ots): upgrade calendar stamps to Bitcoin proofs (${UPGRADED})"
             git push origin master
           fi
