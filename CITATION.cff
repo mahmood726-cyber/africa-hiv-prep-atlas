@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this atlas, please cite it as below."
+title: "African HIV PrEP/PEP Long-Acting Trial Atlas: a methodology-calibration audit"
+abstract: >-
+  A calibration audit of African-cohort classification in long-acting HIV PrEP
+  meta-analyses. Covers cabotegravir-LA, lenacapavir, and dapivirine ring trials
+  pooled in MAs published 2020-2026. Pre-IRR finding (working): 35% sensitivity
+  (95% CI 15-60%) at D3 ground truth (>=50% African enrolment).
+type: software
+authors:
+  - family-names: "Ahmad"
+    given-names: "Mahmood"
+    affiliation: "Makerere University"
+    email: "mahmood726@gmail.com"
+keywords:
+  - "HIV"
+  - "pre-exposure prophylaxis"
+  - "long-acting injectable"
+  - "cabotegravir"
+  - "lenacapavir"
+  - "dapivirine ring"
+  - "meta-analysis"
+  - "Africa"
+  - "calibration"
+  - "methodology audit"
+license: "MIT"
+repository-code: "https://github.com/mahmood726-cyber/africa-hiv-prep-atlas"
+url: "https://mahmood726-cyber.github.io/africa-hiv-prep-atlas/"
+version: "0.1.0-rc1"
+date-released: "2026-05-09"
+preferred-citation:
+  type: article
+  title: "African-cohort classification sensitivity in long-acting HIV PrEP meta-analyses: a systematic calibration study"
+  authors:
+    - family-names: "Ahmad"
+      given-names: "Mahmood"
+  journal: "Synthesis"
+  status: "in preparation"

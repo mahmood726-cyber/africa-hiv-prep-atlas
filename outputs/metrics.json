@@ -1,0 +1,39 @@
+{
+  "as_of_date": "2026-05-09",
+  "confusion_at_d3": {
+    "fn": 24,
+    "fp": 5,
+    "tn": 12,
+    "tp": 13
+  },
+  "d1_status": "non-discriminating (TN=0)",
+  "d2_invariance": "identical confusion matrix at D2",
+  "irr_audit_pending": true,
+  "mas_with_100pct_miss_rate": 12,
+  "mas_with_zero_miss_rate": 8,
+  "method": "clustered_bootstrap",
+  "n_clusters": 20,
+  "n_mas": 20,
+  "n_pairs": 54,
+  "n_reps": 1000,
+  "n_trials": 7,
+  "pages_url": "https://mahmood726-cyber.github.io/africa-hiv-prep-atlas/",
+  "pre_irr": true,
+  "repo_url": "https://github.com/mahmood726-cyber/africa-hiv-prep-atlas",
+  "seed": 42,
+  "sensitivity_at_d3": {
+    "ci_95": [
+      0.15,
+      0.6
+    ],
+    "point": 0.351
+  },
+  "specificity_at_d3": {
+    "ci_95": [
+      0.44,
+      0.94
+    ],
+    "point": 0.706
+  },
+  "version": "0.1.0-rc1"
+}
